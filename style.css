@@ -6,9 +6,17 @@ body
 {
     width: auto;
     height: 300px;
+    float: left;
 }
 .logo
 {
     width: 200px;
     height: 200px;
+    float: left;
+}
+.Nazwa
+{
+    font-size: 40px;
+    font-weight: 700
+    font-family "Space Grotesk", serif;
 }
