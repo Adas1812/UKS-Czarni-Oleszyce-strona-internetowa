@@ -45,6 +45,7 @@ body
     gap: 10px;
     justify-content: center;
     margin-top: 30px;
+    border-spacing: 50%
 }
 .text-container
 {
