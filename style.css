@@ -33,3 +33,31 @@ body
     font-family: "Space Grotesk", serif;
     margin-top: 20px;
 }
+.nav
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.pilot
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+ul > a > li
+{
+    display: flex;
+    flex-direction: row;
+    border-top: 3px solid;
+    border-color: gray;
+    border-bottom: 3px solid;
+    border-color: gray;
+}
+a > li
+{
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
