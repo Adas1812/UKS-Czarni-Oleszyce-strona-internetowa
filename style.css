@@ -30,7 +30,6 @@ body
 .pilot
 {
     width: 960px;
-    max-width: auto;
     height: 40px;
     border-top: 3px solid;
     border-color: #DCDCDC;
