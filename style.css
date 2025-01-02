@@ -8,11 +8,9 @@ body
     height: 140px;
     display: flex;
     flex-direction: row;
-
-}
-header
-{
-    align-items: flex-start;
+    justify-content: center;
+    clear: both;
+    flex-flow: row wrap;
 }
 .logo
 {
