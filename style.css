@@ -30,13 +30,15 @@ body
 .pilot
 {
     width: 960px;
+    max-width: auto;
     height: 40px;
     border-top: 3px solid;
     border-color: #DCDCDC;
     border-bottom: 3px solid;
     border-color: #DCDCDC;
-    display: flex;
-    align-items: center;
+    display: block;
+    margin: left;
+    margin: right;
 
 }
 ul > li
