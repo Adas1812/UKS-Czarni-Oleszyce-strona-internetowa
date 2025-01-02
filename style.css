@@ -8,9 +8,11 @@ body
     height: 140px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
 
+}
+header
+{
+    align-items: flex-start;
 }
 .logo
 {
@@ -23,5 +25,11 @@ body
     color: black;
     font-family: "Space Grotesk", serif;
     font-weight: 700;
+}
+.header-nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
