@@ -36,9 +36,8 @@ body
     border-color: #DCDCDC;
     border-bottom: 3px solid;
     border-color: #DCDCDC;
-    display: block;
-    margin: left;
-    margin: right;
+    display: flex;
+    justify-content: center;
 
 }
 ul > li
