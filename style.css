@@ -65,6 +65,8 @@ h6.text1-text
     font-size: 40px;
     color: black;
     margin-right: 10px;
+    position: relative; 
+    top: 20px; 
 
 }
 #text2
