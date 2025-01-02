@@ -78,8 +78,10 @@ h6.text1-text
 }
 .icon-facebook-official
 { 
-    font-size: 100px;
+    font-size: 80px;
     color: #4169E1;
+    position: relative; 
+    top: 30px;
 }
 .herb
 {
