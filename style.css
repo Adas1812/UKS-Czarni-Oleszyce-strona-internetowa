@@ -41,9 +41,12 @@ body
 }
 ul.pilot
 {
-    float: left;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 ul.pilot > a > li
 {
