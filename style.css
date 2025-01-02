@@ -1,6 +1,7 @@
 body
 {
     background-color: #FFFFFF;
+    max-width: 1200px;
 }
 .nagłówek
 {
@@ -29,7 +30,7 @@ body
 }
 .pilot
 {
-    width: 960px;
+    width: 1200px;
     height: 40px;
     border-top: 3px solid;
     border-color: #DCDCDC;
