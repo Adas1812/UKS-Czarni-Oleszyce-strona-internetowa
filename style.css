@@ -27,3 +27,25 @@ body
     flex-direction: row;
     margin-top: 45px;
 }
+.pilot
+{
+    width: 960px;
+    height: 80px;
+    border-top: 3px solid;
+    border-color: #DCDCDC;
+    border-bottom: 3px solid;
+    border-color: #DCDCDC;
+}
+ul
+{
+    display: inline-block;
+}
+ul > li
+{
+    
+}
+ul > li > a
+{
+    text-decoration: none;
+    color: black;
+}
