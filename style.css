@@ -37,6 +37,7 @@ body
     border-color: #DCDCDC;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 ul > li
