@@ -39,12 +39,12 @@ body
     float: left;
     padding-right: 100px;
     border-right: 1px dashed;
-    border-color: black;
+    border-color: #000000;
     display: flex;
     align-items: flex-start;
     gap: 10px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .text-container
 {
@@ -53,33 +53,33 @@ body
 }
 h2.text1-title
 {
-    color: black;
+    color: #000000;
     margin-bottom: 0;
 }
 h6.text1-text
 {
-    color: black;
+    color: #000000;
     margin-top: 0;
 }
 .icon-map-o
 {
     font-size: 40px;
-    color: black;
+    color: #000000;
     margin-right: 10px;
     position: relative; 
-    top: 20px; 
+    top: 30px; 
 
 }
 #text2
 {
     float: left;
-    padding-left: 100px;
+    padding-left: 50px;
     max-height: 150px;
 }
 .icon-facebook-official
 { 
     font-size: 100px;
-    color: black;
+    color: #4169E1;
 }
 .herb
 {
