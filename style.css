@@ -40,9 +40,10 @@ body
     border-right: 1px dashed;
     border-color: black;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     justify-content: center;
+    margin-top: 20px;
 }
 .text-container
 {
