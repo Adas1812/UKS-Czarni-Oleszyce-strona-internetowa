@@ -48,9 +48,9 @@ ul.pilot
     flex-direction: row;
     align-items: center;
     border-top: 3px solid;
-    border-color: gray;
+    border-color: #DCDCDC;
     border-bottom: 3px solid;
-    border-color: gray;
+    border-color: #DCDCDC;
     border-spacing: 3px;
 }
 ul.pilot > a > li
@@ -68,4 +68,5 @@ ul.pilot > a
     letter-spacing: 1px;
     padding-right: 20px;
     padding-left: 20px;
+    font-size: 20px;
 }
