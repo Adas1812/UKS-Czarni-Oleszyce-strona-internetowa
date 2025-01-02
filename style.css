@@ -15,7 +15,7 @@ body
     height: 150px;
     flex-direction: row;
     margin: 0;
-    margin-left: 300px;
+    padding-left: 100px;
 }
 .Nazwa
 {
