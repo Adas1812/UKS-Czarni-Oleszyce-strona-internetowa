@@ -39,13 +39,13 @@ body
     margin: 0;
     padding: 0;
 }
-.pilot
+ul.pilot
 {
     float: left;
     padding: 0;
     margin: 0;
 }
-ul > a > li
+ul.pilot > a > li
 {
     display: flex;
     flex-direction: row;
@@ -54,7 +54,7 @@ ul > a > li
     border-bottom: 3px solid;
     border-color: gray;
 }
-a > li
+ul.pilot > a
 {
     padding: 0;
     color: black;
