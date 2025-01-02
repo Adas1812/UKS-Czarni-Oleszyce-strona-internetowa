@@ -30,7 +30,7 @@ body
 }
 #text1
 {
-
+    float: right;
 }
 h2.text1-title
 {
@@ -47,7 +47,7 @@ h6.text1-text
 }
 #text2
 {
-    
+    float: right;
 }
 .icon-facebook-official
 { 
