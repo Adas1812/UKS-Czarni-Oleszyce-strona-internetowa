@@ -42,6 +42,7 @@ body
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content: center;
 }
 .text-container
 {
@@ -51,6 +52,7 @@ body
 h2.text1-title
 {
     color: black;
+    margin-bottom: 0;
 }
 h6.text1-text
 {
