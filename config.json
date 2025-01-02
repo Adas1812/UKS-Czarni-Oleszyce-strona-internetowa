@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "c62cbc7fa604e32cc19731a3bb29be79",
+      "css": "map-o",
+      "code": 62072,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "6cc7af3e5b55720bcb6ef68372ce24be",
+      "css": "facebook-official",
+      "code": 62000,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "85528017f1e6053b2253785c31047f44",
+      "css": "comment-1",
+      "code": 59392,
+      "src": "fontawesome"
+    }
+  ]
+}

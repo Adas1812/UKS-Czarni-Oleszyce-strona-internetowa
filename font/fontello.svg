@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2025 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="comment-1" unicode="&#xe800;" d="M1000 350q0-97-67-179t-182-130-251-48q-39 0-81 4-110-97-257-135-27-8-63-12-10-1-17 5t-10 16v1q-2 2 0 6t1 6 2 5l4 5t4 5 4 5q4 5 17 19t20 22 17 22 18 28 15 33 15 42q-88 50-138 123t-51 157q0 73 40 139t106 114 160 76 194 28q136 0 251-48t182-130 67-179z" horiz-adv-x="1000" />
+
+<glyph glyph-name="facebook-official" unicode="&#xf230;" d="M810 779q19 0 33-14t14-34v-762q0-20-14-34t-33-14h-218v333h111l16 129h-127v83q0 31 13 46t51 16l68 1v115q-35 5-100 5-75 0-121-44t-45-127v-95h-112v-129h112v-333h-411q-19 0-33 14t-14 34v762q0 20 14 34t33 14h763z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="map-o" unicode="&#xf278;" d="M1127 844q16-11 16-30v-785q0-12-6-20t-16-13l-358-143q-13-6-26 0l-344 137-344-137q-5-3-13-3-11 0-20 6-16 11-16 30v785q0 12 6 21t16 12l358 143q13 6 26 0l344-137 344 137q18 8 33-3z m-716-75v-709l321-129v709z m-340-122v-708l304 121v709z m1000-594v708l-303-121v-709z" horiz-adv-x="1142.9" />
+</font>
+</defs>
+</svg>

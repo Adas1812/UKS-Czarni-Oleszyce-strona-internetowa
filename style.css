@@ -8,18 +8,51 @@ body
 {
     margin: 20px 25px 20px 25px;
 }
-.logo
+.container
 {
     clear: both;
     display: flex;
     flex-flow: row wrap;
 }
-.name
+.section-left
 {
     width: 40%;
     float: left;
     display: flex;
     flex-direction: row;
+}
+.section-right
+{
+    width: 60%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+#text1
+{
+
+}
+h2.text1-title
+{
+    color: black;
+}
+h6.text1-text
+{
+    color: purple;
+}
+.icon-map-o
+{
+    font-size: 40px;
+    color: black;
+}
+#text2
+{
+    
+}
+.icon-facebook-official
+{ 
+    font-size: 40px;
+    color: black;
 }
 .herb
 {
@@ -51,7 +84,7 @@ ul.pilot
     border-color: #DCDCDC;
     border-bottom: 3px solid;
     border-color: #DCDCDC;
-    border-spacing: 3px;
+    border-spacing: 5px;
 }
 ul.pilot > a > li
 {
