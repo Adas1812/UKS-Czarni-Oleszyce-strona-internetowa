@@ -40,8 +40,6 @@ body
     border-right: 1px dashed;
     border-color: black;
     max-height: 150px;
-    display: flex;
-    text-align: center;
 }
 h2.text1-title
 {
