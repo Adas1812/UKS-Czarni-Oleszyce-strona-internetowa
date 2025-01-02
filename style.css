@@ -39,7 +39,14 @@ body
     padding-right: 100px;
     border-right: 1px dashed;
     border-color: black;
-    max-height: 150px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.text-container
+{
+    display: flex;
+    flex-direction: column;
 }
 h2.text1-title
 {
@@ -53,7 +60,7 @@ h6.text1-text
 {
     font-size: 40px;
     color: black;
-    margin-right: 8px;
+
 }
 #text2
 {
