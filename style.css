@@ -11,8 +11,8 @@ body
 }
 .logo
 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     flex-direction: row;
     margin: 0;
 }
@@ -22,5 +22,5 @@ body
     font-weight: 700;
     font-family: "Space Grotesk", serif;
     flex-direction: row;
-    margin-top: 70px;
+    margin-top: 45px;
 }
