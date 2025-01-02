@@ -24,13 +24,16 @@ body
 .section-right
 {
     width: 60%;
-    float: right;
+    float: left;
     display: flex;
     flex-direction: row;
 }
 #text1
 {
-    float: right;
+    float: left;
+    padding-right: 100px;
+    border-right: 3px solid;
+    border-color: black;
 }
 h2.text1-title
 {
@@ -47,11 +50,12 @@ h6.text1-text
 }
 #text2
 {
-    float: right;
+    float: left;
+    padding-left: 100px;
 }
 .icon-facebook-official
 { 
-    font-size: 40px;
+    font-size: 100px;
     color: black;
 }
 .herb
