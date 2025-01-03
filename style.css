@@ -144,10 +144,8 @@ ul.pilot > a
 .advert
 {
     width: 100%;
-    display: flex;
-    justify-content: center;
-	align-items: center;
 }
+   
 .header-advert
 {
     text-align: center;
@@ -157,7 +155,8 @@ ul.pilot > a
 }
 .hire
 {
-    width: 100%
+    width: 100%;
+    background-image: url(img/nabór.jpg);
 }
 .join-button
 {
