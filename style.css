@@ -164,16 +164,16 @@ ul.pilot > a
     border: 1px solid #000 !important;
     width: 318px; 
     height: 318px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .article3
 {
     border: 1px solid #000 !important;
     width: 318px; 
     height: 318px;
-    padding-left: 40px;
-    padding-right: 80px;
+    margin-left: 40px;
+    margin-right: 80px;
 }
 .rectangle-top-main
 {
@@ -189,16 +189,16 @@ ul.pilot > a
     border: 1px solid #000 !important;
     width: 318px; 
     height: 318px;
-    padding-left: 80px;
-    padding-right: 40px;
+    margin-left: 80px;
+    margin-right: 40px;
 }
 .article5
 {
     border: 1px solid #000 !important;
     width: 318px; 
     height: 318px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .article6
 {
