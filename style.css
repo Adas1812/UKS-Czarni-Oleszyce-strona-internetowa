@@ -207,7 +207,7 @@ ul.pilot > a
 }
 .article6
 {
-    border: 2px solid;
+    border: 1px solid #000 !important;
     border-color: black;
     width: 318px; 
     height: 318px;
