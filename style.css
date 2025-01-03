@@ -143,13 +143,17 @@ ul.pilot > a
 }
 .advert
 {
-    width: 100%
+    width: 100%;
+    display: flex;
+    justify-content: center;
+	align-items: center;
 }
 .header-advert
 {
     text-align: center;
     color: black;
     letter-spacing: 1px;
+    padding-top: 30px;
 }
 .hire
 {
