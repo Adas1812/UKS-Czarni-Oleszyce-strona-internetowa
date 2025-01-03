@@ -185,4 +185,26 @@ ul.pilot > a
     padding-top: 5px;
     color: #808080
 }
+.footer
+{
+    width: 100%;
+}
+.sponsors-title
+{
+    text-align: center;
+    padding-top: 40px;
+    border-top: 2px solid;
+    border-spacing: 8px;
+}
+.sponsors
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contact
+{
+
+}
 
