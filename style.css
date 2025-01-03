@@ -135,41 +135,89 @@ ul.pilot > a
 }
 .main
 {
-    width: 100%
+   width: 100%;
 }
-.rectangle-main
+.news
 {
-    width: 100%
+   width: 100%;
 }
-.advert
+.rectangle-top-main
+{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+   padding-top: 30px;
+   padding-bottom: 25px;
+}
+.article1
+{
+   border-style: 1px solid;
+   border-color: black;
+   width: 318px; 
+   height: 318px;
+   margin-left: 80px;
+   margin-right: 40px;
+}
+.article2
+{
+    border-style: 1px solid;
+    border-color: black;
+    width: 318px; 
+    height: 318px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.article3
+{
+    border-style: 1px solid;
+    border-color: black;
+    width: 318px; 
+    height: 318px;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+.rectangle-top-main
 {
     width: 100%;
-}
-   
-.header-advert
-{
-    text-align: center;
-    color: black;
-    letter-spacing: 1px;
-    padding-top: 30px;
-}
-.hire
-{
-    width: 100%;
-    background-image: url(img/nabór.jpg);
-}
-.join-button
-{
-    width: 150px;
-    height: 100px;
     display: flex;
+    flex-direction: row;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    border-style: 3px solid;
-    background-color:  black;
+    padding-top: 25px;
 }
-a.button-text
+.article4
 {
-    font-size: 15px;
-    color: white;
+    border-style: 1px solid;
+    border-color: black;
+    width: 318px; 
+    height: 318px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+.article5
+{
+    border-style: 1px solid;
+    border-color: black;
+    width: 318px; 
+    height: 318px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.article6
+{
+    border-style: 1px solid;
+    border-color: black;
+    width: 318px; 
+    height: 318px;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+.header-news
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
 }
