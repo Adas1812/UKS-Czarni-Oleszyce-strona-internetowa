@@ -153,8 +153,7 @@ ul.pilot > a
 }
 .article1
 {
-   border-style: 2px solid;
-   border-color: black;
+   border: 1px solid #000 !important;
    width: 318px; 
    height: 318px;
    padding-left: 80px;
@@ -162,8 +161,7 @@ ul.pilot > a
 }
 .article2
 {
-    border-style: 2px solid;
-    border-color: black;
+    border: 1px solid #000 !important;
     width: 318px; 
     height: 318px;
     padding-left: 40px;
@@ -171,8 +169,7 @@ ul.pilot > a
 }
 .article3
 {
-    border-style: 2px solid;
-    border-color: black;
+    border: 1px solid #000 !important;
     width: 318px; 
     height: 318px;
     padding-left: 40px;
@@ -189,8 +186,7 @@ ul.pilot > a
 }
 .article4
 {
-    border-style: 2px solid;
-    border-color: black;
+    border: 1px solid #000 !important;
     width: 318px; 
     height: 318px;
     padding-left: 80px;
@@ -198,8 +194,7 @@ ul.pilot > a
 }
 .article5
 {
-    border: 2px solid;
-    border-color: black;
+    border: 1px solid #000 !important;
     width: 318px; 
     height: 318px;
     padding-left: 40px;
@@ -208,7 +203,6 @@ ul.pilot > a
 .article6
 {
     border: 1px solid #000 !important;
-    border-color: black;
     width: 318px; 
     height: 318px;
     padding-left: 40px;
