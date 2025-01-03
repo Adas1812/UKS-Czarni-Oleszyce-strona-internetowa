@@ -209,4 +209,12 @@ ul.pilot > a
     text-align: left;
     padding-top: 20px;
 }
+.undertext
+{
+    font-size: 8px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #d3d3d3;
+}
 
