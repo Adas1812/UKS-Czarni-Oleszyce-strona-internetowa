@@ -211,10 +211,10 @@ ul.pilot > a
 }
 .undertext
 {
-    font-size: 8px;
+    font-size: 15px;
     text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
-    color: #d3d3d3;
+    color: #808080
 }
 
