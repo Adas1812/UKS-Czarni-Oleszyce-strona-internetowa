@@ -149,7 +149,7 @@ ul.pilot > a
    text-align: center;
    justify-content: center;
    padding-top: 30px;
-   padding-bottom: 25px;
+   padding-bottom: 50px;
 }
 .article1
 {
@@ -177,7 +177,7 @@ ul.pilot > a
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 .article4
 {
