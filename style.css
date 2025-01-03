@@ -170,36 +170,6 @@ ul.pilot > a
     height: 250px;
     margin-left: 20px;
 }
-.rectangle-bottom-main
-{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    padding-top: 50px;
-}
-.article4
-{
-    border: 1px solid #000 !important;
-    width: 398px; 
-    height: 398px;
-    margin-right: 20px;
-}
-.article5
-{
-    width: 400px; 
-    height: 400px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.article6
-{
-    border: 1px solid #000 !important;
-    width: 398px; 
-    height: 398px;
-    margin-left: 20px;
-}
 .title-news
 {
     font-size: 30px;
