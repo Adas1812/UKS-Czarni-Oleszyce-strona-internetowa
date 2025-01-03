@@ -211,3 +211,8 @@ ul.pilot > a
     text-align: center;
     padding-top: 20px;
 }
+.background-news
+{
+    background-image: url(img/background.jpg);
+    width: 100%
+}
