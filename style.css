@@ -154,23 +154,24 @@ ul.pilot > a
 .article1
 {
    border: 1px solid #000 !important;
-   width: 318px; 
-   height: 318px;
-   margin-right: 40px;
+   width: 398px; 
+   height: 398px;
+   margin-right: 20px;
 }
 .article2
 {
     border: 1px solid #000 !important;
-    width: 318px; 
-    height: 318px;
-    margin: 40px;
+    width: 398px; 
+    height: 398px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .article3
 {
     border: 1px solid #000 !important;
-    width: 318px; 
-    height: 318px;
-    margin: 40px;
+    width: 398px; 
+    height: 398px;
+    margin-left: 20px;
 }
 .rectangle-bottom-main
 {
@@ -184,23 +185,24 @@ ul.pilot > a
 .article4
 {
     border: 1px solid #000 !important;
-    width: 318px; 
-    height: 318px;
-    margin: 40px;
+    width: 398px; 
+    height: 398px;
+    margin-right: 20px;
 }
 .article5
 {
     border: 1px solid #000 !important;
-    width: 318px; 
-    height: 318px;
-    margin: 40px;
+    width: 398px; 
+    height: 398px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .article6
 {
     border: 1px solid #000 !important;
-    width: 318px; 
-    height: 318px;
-    margin: 40px;
+    width: 398px; 
+    height: 398px;
+    margin-left: 20px;
 }
 .header-news
 {
