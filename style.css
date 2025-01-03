@@ -198,11 +198,26 @@ ul.pilot > a
 }
 .sponsors
 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    
 }
+.sponsors-top
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.sponsors-bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-height: 400px;
+    padding: 30px;
+}
+
 .contact
 {
 
