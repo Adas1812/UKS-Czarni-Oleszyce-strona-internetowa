@@ -210,11 +210,4 @@ ul.pilot > a
     text-transform: uppercase;
     text-align: center;
     padding-top: 20px;
-    color: white;
-}
-.background-news
-{
-    background-image: url(img/background.jpg);
-    width: 100%
-    padding-bottom: 20px;
 }
