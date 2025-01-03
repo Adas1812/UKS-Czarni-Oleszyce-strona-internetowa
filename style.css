@@ -202,28 +202,11 @@ ul.pilot > a
     height: 398px;
     margin-left: 20px;
 }
-.header-news
+.title-news
 {
     font-size: 30px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
 }
-.news-bookmark
-{
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
-}
-h3.title-news
-{
-    font-size: 14px;
-    line-height: 1;
-    margin-top: 0;
-    margin-bottom: 26px;
-    border-bottom: 2px solid
-}
+
