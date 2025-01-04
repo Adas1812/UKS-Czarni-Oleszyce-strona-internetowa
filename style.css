@@ -259,9 +259,8 @@ ul.pilot > a:hover
 }
 .img-photos
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     padding: 30px;
     width: 413px;
     height: 250px;
