@@ -246,7 +246,7 @@ ul.pilot > a:hover
 .photos
 {
     width: 100%;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 .rectangle-photos
 {
@@ -274,7 +274,6 @@ ul.pilot > a:hover
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
 }
 .link
 {
