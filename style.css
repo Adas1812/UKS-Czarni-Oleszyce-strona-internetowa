@@ -252,6 +252,7 @@ ul.pilot > a:hover
 {
     width: 413px;
     height: 250px;
+    padding-top: 30px;
 }
 .overlay-img
 {
@@ -262,6 +263,7 @@ ul.pilot > a:hover
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    padding-top: 30px;
 }
 .link
 {
