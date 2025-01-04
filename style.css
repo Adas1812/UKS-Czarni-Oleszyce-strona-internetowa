@@ -261,7 +261,6 @@ ul.pilot > a
     border-right: 2px dashed;
     border-color: gray;
 }
-}
 .icon-phone
 {
     margin-right: 8px;
@@ -273,11 +272,12 @@ ul.pilot > a
 div.email > p
 {
     color: #FFFFFF;
+}
 div.phone > p
 {
     color: #FFFFFF;
     border-right: 2px dashed;
     border-color: gray;
 }
-}
+
 
