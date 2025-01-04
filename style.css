@@ -228,7 +228,7 @@ ul.pilot > a:hover
 {
     transform: scale(0.9)
 }
-.title-news
+.title-main
 {
     font-size: 30px;
     text-transform: uppercase;
@@ -242,6 +242,49 @@ ul.pilot > a:hover
     padding-bottom: 5px;
     padding-top: 5px;
     color: #808080
+}
+.photos
+{
+    width: 100%
+}
+.rectangle-photos
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 413px;
+    height: 250px;
+}
+.img-photos
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 413px;
+    height: 250px;
+}
+.overlay-img
+{
+    position: relative;
+    width: 413px;
+    height: 250px;
+}
+.link
+{
+    background-color: #28a38d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out
+}
+.link:hover
+{
+    opacity: 0.9;
 }
 .footer
 {

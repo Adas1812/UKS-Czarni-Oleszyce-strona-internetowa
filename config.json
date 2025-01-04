@@ -41,6 +41,12 @@
       "css": "facebook",
       "code": 61594,
       "src": "fontawesome"
+    },
+    {
+      "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
+      "css": "search",
+      "code": 59395,
+      "src": "fontawesome"
     }
   ]
 }
