@@ -180,11 +180,17 @@ ul.pilot > a:hover
    width: 413px; 
    height: 250px;
    margin-right: 10px;
-   transition: transform 0.2s;
 }
-.article1:hover
+.article1-img
 {
-    transform: scale(0.9);
+    width: 413px; 
+    height: 250px;
+    margin-right: 10px;
+    transition: transform 0.2s
+}
+.article1-img:hover
+{
+    transform: scale(0.9)
 }
 .article2
 {
@@ -193,11 +199,34 @@ ul.pilot > a:hover
     margin-left: 10px;
     margin-right: 10px;
 }
+.article2-img
+{
+    width: 413px; 
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 0.2s
+}
+.article2-img:hover
+{
+    transform: scale(0.9)
+}
 .article3
 {
     width: 413px; 
     height: 250px;
     margin-left: 10px;
+}
+.article3-img
+{
+    width: 413px; 
+    height: 250px;
+    margin-left: 10px;
+    transition: transform 0.2s
+}
+.article3-img:hover
+{
+    transform: scale(0.9)
 }
 .title-news
 {
