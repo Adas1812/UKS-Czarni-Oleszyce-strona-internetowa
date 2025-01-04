@@ -242,14 +242,14 @@ ul.pilot > a
 }
 .phone
 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     overflow: hidden;
 }
 .email
 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     overflow: hidden;
 }
 .icon-phone
@@ -265,12 +265,12 @@ ul.pilot > a
 div.email > p
 {
     color: #FFFFFF;
+    font-size: 25px;
 }
 div.phone > p
 {
     color: #FFFFFF;
-    border-right: 2px dashed;
-    border-color: gray;
+    font-size: 25px;
 }
 
 
