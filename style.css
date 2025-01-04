@@ -259,6 +259,7 @@ ul.pilot > a:hover
 }
 .img-photos
 {
+    position: relative;
     display: grid;
     place-items: center;
     padding: 30px;
