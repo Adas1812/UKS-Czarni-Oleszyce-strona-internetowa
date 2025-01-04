@@ -14,6 +14,10 @@ body
     clear: both;
     display: flex;
     flex-flow: row wrap;
+    width: 100vw;
+    background-image: url(img/background.jpg);
+    padding: 20px 0; 
+    position: relative; 
 }
 .section-left
 {
