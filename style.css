@@ -47,7 +47,7 @@ body
     float: left;
     padding-right: 50px;
     border-right: 1px dashed;
-    border-color: #000000;
+    border-color: #FFFFFF;
     display: flex;
     align-items: flex-start;
     gap: 10px;
@@ -61,19 +61,19 @@ body
 }
 h2.text1-title
 {
-    color: #000000;
+    color: #FFFFFF;
     margin-bottom: 0;
 }
 h6.text1-text
 {
-    color: #000000;
+    color: #FFFFFF;
     margin-top: 0;
     font-size: 15px;
 }
 .icon-map-o
 {
     font-size: 40px;
-    color: #000000;
+    color: #FFFFFF;
     margin-right: 10px;
     position: relative; 
     top: 30px; 
@@ -120,11 +120,6 @@ ul.pilot
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    border-top: 3px solid;
-    border-color: #DCDCDC;
-    border-bottom: 3px solid;
-    border-color: #DCDCDC;
-    border-spacing: 5px;
 }
 ul.pilot > a > li
 {
@@ -134,7 +129,7 @@ ul.pilot > a > li
 ul.pilot > a
 {
     padding: 0;
-    color: black;
+    color: #FFFFFF;
     text-decoration: none;
     display: block;
     font-family: "Space Grotesk", serif;
