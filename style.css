@@ -233,7 +233,8 @@ ul.pilot > a:hover
     font-size: 30px;
     text-transform: uppercase;
     text-align: left;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .undertext
 {
