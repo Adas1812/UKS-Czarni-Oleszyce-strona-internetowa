@@ -265,9 +265,16 @@ ul.pilot > a:hover
     margin: 0 auto;
     padding-top: 30px;
 }
-.link
+.overlay-img.link
 {
     background-color: #28a38d;
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 .link:hover
 {
