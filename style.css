@@ -14,6 +14,9 @@ body
     clear: both;
     display: flex;
     flex-flow: row wrap;
+}
+.header-menu
+{
     width: 100vw;
     background-image: url(img/background.jpg);
     margin-left: calc(-50vw + 50%);
