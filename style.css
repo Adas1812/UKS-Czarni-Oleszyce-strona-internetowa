@@ -80,6 +80,7 @@ h6.text1-text
     color: #FFFFFF;
     margin-right: 10px;
     position: relative; 
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
