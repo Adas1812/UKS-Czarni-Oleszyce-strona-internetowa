@@ -54,7 +54,9 @@ body
     margin-top: 30px;
     gap: 10px;
 }
-#text1:hover
+#text1:hover .icon-map-o, 
+#text1:hover .text1-title, 
+#text1:hover .text1-text 
 {
     color: #EEEEEE
 }
