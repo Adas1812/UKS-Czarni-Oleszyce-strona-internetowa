@@ -53,6 +53,7 @@ body
     gap: 10px;
     justify-content: center;
     margin-top: 30px;
+    flex-direction: row;
 }
 a
 {
