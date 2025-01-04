@@ -244,31 +244,23 @@ ul.pilot > a
 {
     padding-left: 20px;
     padding-right: 20px;
-}
-.facebook
-{
-    padding-left: 20px;
-    padding-right: 20px;
+    overflow: hidden;
 }
 .email
 {
     padding-left: 20px;
     padding-right: 20px;
-}
-.icon-facebook
-{
-    font-size: 20px;
-    color: white;
-    border-right: 2px dashed;
-    border-color: gray;
+    overflow: hidden;
 }
 .icon-phone
 {
     margin-right: 8px;
+    float: left;
 }
 .icon-mail
 {
     margin-right: 8px;
+    float: left;
 }
 div.email > p
 {
@@ -279,6 +271,7 @@ div.phone > p
     color: #FFFFFF;
     border-right: 2px dashed;
     border-color: gray;
+    border-spacing: 10px;
 }
 
 
