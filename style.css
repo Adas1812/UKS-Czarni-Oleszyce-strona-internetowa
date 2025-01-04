@@ -256,7 +256,6 @@ ul.pilot > a:hover
 }
 .overlay-img
 {
-    position: relative;
     width: 413px;
     height: 250px;
     display: flex;
