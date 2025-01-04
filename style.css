@@ -16,8 +16,9 @@ body
     flex-flow: row wrap;
     width: 100vw;
     background-image: url(img/background.jpg);
-    padding: 20px 0; 
-    position: relative; 
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    padding: 20px 0;
 }
 .section-left
 {
