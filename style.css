@@ -180,6 +180,11 @@ ul.pilot > a:hover
    width: 413px; 
    height: 250px;
    margin-right: 10px;
+   transition: transform 0.2s;
+}
+.article1:hover
+{
+    transform: scale(0.9);
 }
 .article2
 {
