@@ -243,15 +243,11 @@ ul.pilot > a
 {
     padding-left: 20px;
     padding-right: 20px;
-    border-right: 2px dashed;
-    border-color: gray
 }
 .facebook
 {
     padding-left: 20px;
     padding-right: 20px;
-    border-right: 2px dashed;
-    border-color: gray
 }
 .email
 {
@@ -260,14 +256,28 @@ ul.pilot > a
 }
 .icon-facebook
 {
-    font-size: 15px;
+    font-size: 10px;
+    color: white;
+    border-right: 2px dashed;
+    border-color: gray;
+}
+}
+.icon-phone
+{
+    margin-right: 8px;
+}
+.icon-mail
+{
+    margin-right: 8px;
 }
 div.email > p
 {
-    color: #FFFFFF
-}
+    color: #FFFFFF;
 div.phone > p
 {
-    color: #FFFFFF
+    color: #FFFFFF;
+    border-right: 2px dashed;
+    border-color: gray;
+}
 }
 
