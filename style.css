@@ -259,7 +259,6 @@ ul.pilot > a:hover
 }
 .img-photos
 {
-    position: relative;
     display: grid;
     place-items: center;
     padding: 30px;
@@ -268,7 +267,7 @@ ul.pilot > a:hover
 }
 .overlay-img
 {
-     
+    position: relative;
     width: 413px;
     height: 250px;
     display: flex;
