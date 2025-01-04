@@ -52,6 +52,7 @@ body
     justify-content: center;
     flex-direction: row;
     margin-top: 30px;
+    gap: 10px;
 }
 a
 {
@@ -79,6 +80,8 @@ h6.text1-text
     color: #FFFFFF;
     margin-right: 10px;
     position: relative; 
+    justify-content: center;
+    flex-direction: row;
 }
 #text2
 {
