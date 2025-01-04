@@ -102,6 +102,10 @@ h6.text1-text
     position: relative; 
     top: 30px;
 }
+.icon-facebook-official:hover
+{
+    color: #3069d0
+}
 .herb
 {
     width: 150px;
@@ -148,6 +152,10 @@ ul.pilot > a
     padding-right: 30px;
     padding-left: 30px;
     font-size: 20px;
+}
+ul.pilot > a:hover
+{
+    color: #EEEEEE
 }
 .main
 {
