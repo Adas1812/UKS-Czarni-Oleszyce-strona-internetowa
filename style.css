@@ -248,19 +248,8 @@ ul.pilot > a:hover
     width: 100%;
     padding-top: 50px;
 }
-.rectangle-photos
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    width: 413px;
-    height: 250px;
-}
 .img-photos
 {
-    display: grid;
-    place-items: center;
     padding: 30px;
     width: 413px;
     height: 250px;
@@ -273,6 +262,7 @@ ul.pilot > a:hover
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 .link
 {
