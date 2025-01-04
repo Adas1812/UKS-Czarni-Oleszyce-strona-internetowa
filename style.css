@@ -267,6 +267,7 @@ ul.pilot > a:hover
 }
 .overlay-img.link
 {
+    position: absolute;
     background-color: #28a38d;
     display: block;
     width: 100%;
