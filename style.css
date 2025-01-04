@@ -231,7 +231,7 @@ ul.pilot > a
 {
     width: 100%;
     background-image: url(img/background.jpg);
-    margin-bottom: 0;
+    margin: 0;
 }
 .media
 {
