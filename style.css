@@ -270,6 +270,10 @@ ul.pilot > a:hover
     position: relative;
     width: 413px;
     height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
 .link
 {
