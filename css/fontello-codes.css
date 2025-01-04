@@ -1,4 +1,6 @@
 
 .icon-comment-1:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-phone:before { content: '\e802'; } /* '' */
 .icon-facebook-official:before { content: '\f230'; } /* '' */
 .icon-map-o:before { content: '\f278'; } /* '' */

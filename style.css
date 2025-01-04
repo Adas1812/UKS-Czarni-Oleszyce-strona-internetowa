@@ -229,6 +229,14 @@ ul.pilot > a
 }
 .contact
 {
-
+    width: 100%;
+    background-image: url(img/background.jpg);
+}
+.media
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
