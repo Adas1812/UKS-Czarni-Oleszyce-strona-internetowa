@@ -236,6 +236,7 @@ ul.pilot > a:hover
     margin-top: 40px;
     background-color: black;
     color: white;
+    padding-left: 3px;
 }
 .title-main2
 {
@@ -245,6 +246,10 @@ ul.pilot > a:hover
     margin-top: 80px; 
     background-color: black;
     color: white;
+}
+.rectangle-title
+{
+
 }
 .undertext
 {
