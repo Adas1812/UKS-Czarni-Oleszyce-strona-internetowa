@@ -234,10 +234,6 @@ ul.pilot > a:hover
     text-transform: uppercase;
     text-align: left;
     margin-top: 40px;
-    background-color: black;
-    color: white;
-    padding-left: 3px;
-    width: auto;
 }
 .title-main2
 {
@@ -245,12 +241,6 @@ ul.pilot > a:hover
     text-transform: uppercase;
     text-align: left;
     margin-top: 80px; 
-    background-color: black;
-    color: white;
-}
-.rectangle-title
-{
-
 }
 .undertext
 {
@@ -373,6 +363,10 @@ div.phone > p
 {
     color: #FFFFFF;
     font-size: 25px;
+}
+.copyright
+{
+    text-align: center;
 }
 
 
