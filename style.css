@@ -251,8 +251,12 @@ ul.pilot > a:hover
 }
 .article-header
 {
-    text-align: center;
-    margin-top: 40px;
+    display: block;
+}
+a > img
+{
+    display: block;
+    margin: 0 auto;
 }
 .photos
 {
