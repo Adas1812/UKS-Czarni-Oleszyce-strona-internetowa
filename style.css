@@ -247,7 +247,8 @@ ul.pilot > a:hover
     text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
-    color: #808080
+    color: #808080;
+    position: relative;
 }
 .photos
 {
