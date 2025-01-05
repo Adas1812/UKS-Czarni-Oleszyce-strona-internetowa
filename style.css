@@ -249,6 +249,10 @@ ul.pilot > a:hover
     color: #808080;
     position: relative;
 }
+.article-header
+{
+    
+}
 .photos
 {
     width: 100%;
@@ -273,7 +277,6 @@ ul.pilot > a:hover
     display: flex;
     align-items: center;
     width: 413px;
-    height: 250px;
 }
 .img-photos2
 {
@@ -289,7 +292,6 @@ ul.pilot > a:hover
     display: flex;
     align-items: center;
     width: 413px;
-    height: 250px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -306,12 +308,7 @@ ul.pilot > a:hover
     display: flex;
     align-items: center;
     width: 413px;
-    height: 250px;
     padding-left: 10px;
-}
-
-{
-
 }
 .footer
 {
