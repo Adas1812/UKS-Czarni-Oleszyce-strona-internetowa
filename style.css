@@ -187,6 +187,7 @@ ul.pilot > a:hover
     width: 413px; 
     height: 250px;
     margin-right: 10px;
+    pointer-events: none;
 }
 .article1:hover
 {
@@ -206,6 +207,7 @@ ul.pilot > a:hover
     height: 250px;
     margin-left: 10px;
     margin-right: 10px;
+    pointer-events: none;
 }
 .article2:hover
 {
@@ -223,6 +225,7 @@ ul.pilot > a:hover
     width: 413px; 
     height: 250px;
     margin-left: 10px;
+    pointer-events: none;
 }
 .article3:hover
 {
@@ -337,7 +340,7 @@ ul.pilot > a:hover
 
 .contact
 {
-    margin: 0 25px;
+    margin: 0;
     width: 100vw;
     background-image: url(img/background.jpg);
     margin-left: calc(-50vw + 50%);
