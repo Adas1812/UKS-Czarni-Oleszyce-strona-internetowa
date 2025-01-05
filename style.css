@@ -340,9 +340,6 @@ ul.pilot > a:hover
     width: 100%;
     background-image: url(img/background.jpg);
     margin: 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
 }
 .media
 {
