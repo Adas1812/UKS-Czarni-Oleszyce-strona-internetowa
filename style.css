@@ -277,13 +277,13 @@ ul.pilot > a:hover
 .footer
 {
     width: 100%;
+    margin-top: 150px;
 }
 .sponsors-title
 {
     text-align: center;
-    padding-top: 100px;
-    border-top: 2px solid;
     border-spacing: 8px;
+    border-top: #000 solid 2px;
 }
 .sponsors
 {
