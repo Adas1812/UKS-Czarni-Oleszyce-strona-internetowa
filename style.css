@@ -262,6 +262,7 @@ ul.pilot > a:hover
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
 }
 .rectangle-photos
 {
@@ -271,6 +272,7 @@ ul.pilot > a:hover
     width: 413px;
     height: 250px;
     margin: 0 auto;
+    padding-top: 20px;
 }
 .footer
 {
