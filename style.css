@@ -231,13 +231,15 @@ ul.pilot > a:hover
     font-size: 30px;
     text-transform: uppercase;
     text-align: left;
+    padding-bottom: 30px;
+}
 }
 .title-main2
 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: left;
-    margin-top: 80px; 
+    padding-bottom: 30px;
 }
 .undertext
 {
