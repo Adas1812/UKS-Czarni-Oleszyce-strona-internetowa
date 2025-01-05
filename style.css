@@ -249,17 +249,6 @@ ul.pilot > a:hover
     color: #808080;
     position: relative;
 }
-.article-header
-{
-    display: block;
-    margin: 0 auto;
-    padding: 0 auto;
-}
-a > img
-{
-    display: block;
-    margin: 0 auto;
-}
 .photos
 {
     width: 100%;
@@ -268,7 +257,6 @@ a > img
 .rectangle-photos
 {
     width: 100%;
-    padding-top: 20px;
     display: flex;
     flex-direction: row;
 }
@@ -276,28 +264,20 @@ a > img
 {
     width: 413px;
     height: 250px;
-    display: flex;
-    align-items: center;
 }
 .rectangle-photos1
 {
-    display: flex;
-    align-items: center;
     width: 413px;
 }
 .img-photos2
 {
     width: 413px;
     height: 250px;
-    display: flex;
-    align-items: center;
     padding-left: 10px;
     padding-right: 10px;
 }
 .rectangle-photos2
 {
-    display: flex;
-    align-items: center;
     width: 413px;
     padding-left: 10px;
     padding-right: 10px;
@@ -306,14 +286,10 @@ a > img
 {
     width: 413px;
     height: 250px;
-    display: flex;
-    align-items: center;
     padding-left: 10px;
 }
 .rectangle-photos3
 {
-    display: flex;
-    align-items: center;
     width: 413px;
     padding-left: 10px;
 }
