@@ -228,10 +228,6 @@ ul.pilot > a:hover
 {
     transform: scale(0.9)
 }
-.article-header
-{
-    position: absolute;
-}
 .title-main1
 {
     font-size: 30px;
