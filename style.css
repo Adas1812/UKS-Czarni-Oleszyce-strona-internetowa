@@ -254,6 +254,10 @@ ul.pilot > a:hover
     width: 100%;
     margin-top: 40px;
 }
+.article-header
+{
+    text-align: center;
+}
 .rectangle-photos
 {
     width: 100%;
