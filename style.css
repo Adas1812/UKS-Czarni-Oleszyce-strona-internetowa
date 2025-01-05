@@ -237,6 +237,7 @@ ul.pilot > a:hover
     background-color: black;
     color: white;
     padding-left: 3px;
+    width: auto;
 }
 .title-main2
 {
