@@ -364,3 +364,11 @@ div.phone > p
     color: #FFFFFF;
     font-size: 25px;
 }
+.copyright
+{
+    text-align: center;
+}
+div.copyright > p
+{
+    color: #FFFFFF
+}
