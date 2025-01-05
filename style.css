@@ -367,7 +367,9 @@ div.phone > p
 .copyright
 {
     text-align: center;
+}
+div.copyright > p
+{
     color: white;
 }
-
 
