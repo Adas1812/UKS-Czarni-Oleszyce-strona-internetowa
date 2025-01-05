@@ -282,8 +282,9 @@ ul.pilot > a:hover
 .sponsors-title
 {
     text-align: center;
-    border-spacing: 8px;
+    border-spacing: 15px;
     border-top: #000 solid 2px;
+    padding-bottom: 40px;
 }
 .sponsors
 {
