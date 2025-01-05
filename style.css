@@ -180,15 +180,15 @@ ul.pilot > a:hover
    width: 413px; 
    height: 250px;
    margin-right: 10px;
+   transition: transform 0.2s
 }
 .article1-img
 {
     width: 413px; 
     height: 250px;
     margin-right: 10px;
-    transition: transform 0.2s
 }
-.article1-img:hover
+.article1:hover
 {
     transform: scale(0.9)
 }
@@ -198,6 +198,7 @@ ul.pilot > a:hover
     height: 250px;
     margin-left: 10px;
     margin-right: 10px;
+    transition: transform 0.2s
 }
 .article2-img
 {
@@ -205,9 +206,8 @@ ul.pilot > a:hover
     height: 250px;
     margin-left: 10px;
     margin-right: 10px;
-    transition: transform 0.2s
 }
-.article2-img:hover
+.article2:hover
 {
     transform: scale(0.9)
 }
@@ -216,15 +216,15 @@ ul.pilot > a:hover
     width: 413px; 
     height: 250px;
     margin-left: 10px;
+    transition: transform 0.2s
 }
 .article3-img
 {
     width: 413px; 
     height: 250px;
     margin-left: 10px;
-    transition: transform 0.2s
 }
-.article3-img:hover
+.article3:hover
 {
     transform: scale(0.9)
 }
