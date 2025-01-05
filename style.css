@@ -110,6 +110,7 @@ h6.text1-text
 {
     width: 150px;
     height: 150px;
+    pointer-events: none;
 }
 .nazwa
 {
@@ -258,24 +259,54 @@ ul.pilot > a:hover
 {
     width: 100%;
 }
-.img-photos
-{
-    width: 413px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-}
 .rectangle-photos
 {
+    width: 100%;
+    padding-top: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+}
+.img-photos1
+{
+    width: 413px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.rectangle-photos1
+{
+    display: flex;
     align-items: center;
     width: 413px;
     height: 250px;
-    margin: 0 auto;
-    padding-top: 20px;
+}
+.img-photos2
+{
+    width: 413px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.rectangle-photos2
+{
+    display: flex;
+    align-items: center;
+    width: 413px;
+    height: 250px;
+}
+.img-photos3
+{
+    width: 413px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.rectangle-photos3
+{
+    display: flex;
+    align-items: center;
+    width: 413px;
+    height: 250px;
 }
 .footer
 {
