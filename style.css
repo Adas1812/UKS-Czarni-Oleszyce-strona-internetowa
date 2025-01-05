@@ -165,7 +165,7 @@ ul.pilot > a:hover
 .news
 {
    width: 100%;
-   margin-top: 20px;
+   margin-top: 40px;
 }
 .rectangle-top-main
 {
@@ -252,6 +252,7 @@ ul.pilot > a:hover
 .photos
 {
     width: 100%;
+    margin-top: 40px;
 }
 .rectangle-photos
 {
