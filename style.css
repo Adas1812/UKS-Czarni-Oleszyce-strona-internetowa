@@ -337,11 +337,12 @@ ul.pilot > a:hover
 
 .contact
 {
-    background-image: url(img/background.jpg);
     margin: 0 25px;
     width: 100vw;
+    background-image: url(img/background.jpg);
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
+    padding: 20px 0;
 }
 .media
 {
