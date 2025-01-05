@@ -180,14 +180,12 @@ ul.pilot > a:hover
 {
    width: 413px; 
    height: 250px;
-   margin-right: 10px;
    transition: transform 0.2s
 }
 .article1-img
 {
     width: 413px; 
     height: 250px;
-    margin-right: 10px;
     pointer-events: none;
 }
 .article1:hover
