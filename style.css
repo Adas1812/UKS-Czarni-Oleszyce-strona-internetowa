@@ -311,11 +311,30 @@ ul.pilot > a:hover
     max-width: 200px;
     max-height: 200px;
     padding: 40px;
+    transition: 0.5s
 }
 .nadlesnictwo-logo
 {
     padding: 40px;
+    transition: 0.5s
 }
+.oleszyce-logo
+{
+    transition: 0.5s
+}
+.gbkomputer-logo:hover
+{
+    transform: scale(0.4)
+}
+.nadlesnictwo-logo:hover
+{
+    transform: scale(0.4)
+}
+.oleszyce-logo:hover
+{
+    transform: scale(0.4)
+}
+
 .contact
 {
     width: 100%;
