@@ -228,11 +228,18 @@ ul.pilot > a:hover
 {
     transform: scale(0.9)
 }
-.title-main
+.title-main1
 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: left;
+}
+.title-main2
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 20px; 
 }
 .undertext
 {
