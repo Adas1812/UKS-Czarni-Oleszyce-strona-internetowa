@@ -38,14 +38,21 @@
      </div>
      <nav class="nav">
       <ul class="pilot">
-        <li><a href="index.html" class="active">Strona Główna</a></li>
-        <li><a href="pages/O nas.html">O nas</a></li>
-        <li><a href="pages/Aktualności.html">Aktualności</a></li>
-        <li><a href="pages/Rozgrywki.html">Rozgrywki</a></li>
-        <li><a href="pages/Grupy Młodzieżowe.html">Grupy Młodzieżowe</a></li>
-        <li><a href="pages/Zdjęcia.html">Zdjęcia</a></li>
-        <li><a href="pages/Kontakt.html">Kontakt</a></li>
+        <a href="index.html" class="active"><li>Strona Główna</li></a>
+        <a href="pages/O nas.html"><li>O nas</li></a>
+        <a href="pages/Aktualności.html"><li>Aktualności</li></a>
+        <a href="pages/Rozgrywki.html"><li>Rozgrywki</li></a>
+        <a href="pages/Grupy Młodzieżowe.html"><li>Grupy Młodzieżowe</li></a>
+        <a href="pages/Zdjęcia.html"><li>Zdjęcia</li></a>
+        <a href="pages/Kontakt.html"><li>Kontakt</li></a>
       </ul>
+      <script>
+        document.querySelectorAll('.pilot > li > a').forEach(link => {
+            if (link.href === window.location.href) {
+                link.classList.add('active');
+            }
+        });
+    </script>
      </nav>
   </div>
 
