@@ -436,9 +436,6 @@ div.copyright > p
     left: 0px;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-    display: flex;
-    text-align: center;
-    justify-content: center;
 }
 .overlay:hover .link
 {
@@ -456,5 +453,6 @@ i.icon-search > p
 {
     font-size: 40px;
     color: #FFFFFF;
+    margin-top: 10px;
 
 }
