@@ -171,7 +171,7 @@ ul.pilot > a:hover::after
 {
     width: 100%;
 }
-ul.pilot > a.active, ul.pilot > a.active::after
+ul.pilot > a.active::after
 {
     width: 100%;
     background-color: #EEEEEE;
