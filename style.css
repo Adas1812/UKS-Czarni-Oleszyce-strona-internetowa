@@ -418,7 +418,21 @@ div.copyright > p
 {
     color: #FFFFFF
 }
-.overlay
+.overlay1
+{
+    position: relative;
+    width: 413px;
+    height: 250px;
+    text-align: center;
+}
+.overlay2
+{
+    position: relative;
+    width: 413px;
+    height: 250px;
+    text-align: center;
+}
+.overlay3
 {
     position: relative;
     width: 413px;
