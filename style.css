@@ -438,5 +438,5 @@ div.copyright > p
 }
 .overlay:hover .link
 {
-    opacity: 0.9px;
+    opacity: 0.9;
 }
