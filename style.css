@@ -280,7 +280,6 @@ ul.pilot > a:hover
     width: 413px;
     height: 250px;
     padding-left: 10px;
-    padding-right: 10px;
     pointer-events: none;
 }
 .rectangle-photos2
@@ -300,6 +299,44 @@ ul.pilot > a:hover
 {
     width: 413px;
     padding-left: 10px;
+}
+.overlay
+{
+    position: relative;
+    width: 413px;
+    height: 250px;
+    text-align: center;
+}
+.overlay .link
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #27a38d;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.overlay:hover .link
+{
+    opacity: 0.9;
+}
+i.icon-search > p
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: "Lato", serif;
+    font-style: normal;
+}
+.icon-search
+{
+    font-size: 40px;
+    color: #FFFFFF;
+    position: relative;
+    top: 50px;
 }
 .footer
 {
@@ -418,42 +455,5 @@ div.copyright > p
 {
     color: #FFFFFF
 }
-.overlay
-{
-    position: relative;
-    width: 413px;
-    height: 250px;
-    text-align: center;
-}
-.overlay .link
-{
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #27a38d;
-    top: 0px;
-    left: 0px;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-.overlay:hover .link
-{
-    opacity: 0.9;
-}
-i.icon-search > p
-{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 40px;
-    font-family: "Lato", serif;
-    font-style: normal;
-}
-.icon-search
-{
-    font-size: 40px;
-    color: #FFFFFF;
-    position: relative;
-    top: 50px;
-}
+
 
