@@ -433,4 +433,10 @@ div.copyright > p
     background-color: #00CED1;
     top: 0px;
     left: 0px;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+.overlay:hover .link
+{
+    opacity: 0.8px;
 }
