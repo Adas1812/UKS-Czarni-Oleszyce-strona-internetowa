@@ -439,7 +439,7 @@ div.copyright > p
     height: 250px;
     text-align: center;
 }
-.overlay .link
+.overlay1, .overlay2, .overlay3.link
 {
     position: absolute;
     display: block;
@@ -451,7 +451,7 @@ div.copyright > p
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
-.overlay:hover .link
+.overlay1, .overlay2, .overlay3:hover .link
 {
     opacity: 0.9;
 }
