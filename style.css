@@ -423,6 +423,7 @@ div.copyright > p
     position: relative;
     width: 413px;
     height: 250px;
+    text-align: center;
 }
 .overlay .link
 {
@@ -445,10 +446,10 @@ i.icon-search > p
 {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 40px;
 }
 .icon-search
 {
-    font-size: 25px;
+    font-size: 40px;
     color: #FFFFFF
 }
