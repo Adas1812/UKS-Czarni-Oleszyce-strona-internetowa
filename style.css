@@ -154,7 +154,7 @@ ul.pilot > a
     padding-left: 30px;
     font-size: 20px;
     position: relative;
-    transition: 0.3s ease;
+    transition: 1s ease-in-out;
 }
 ul.pilot > a::after
 {
