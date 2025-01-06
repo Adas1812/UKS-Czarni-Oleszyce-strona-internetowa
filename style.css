@@ -447,9 +447,11 @@ i.icon-search > p
     text-decoration: none;
     color: #FFFFFF;
     font-size: 40px;
+    font-family: "Lato", serif;
 }
 .icon-search
 {
     font-size: 40px;
-    color: #FFFFFF
+    color: #FFFFFF;
+    text-align: center;
 }
