@@ -174,7 +174,6 @@ ul.pilot > a:hover::after
 ul.pilot > a.active::after
 {
     width: 100%;
-    background-color: #EEEEEE;
 }
 .news
 {
