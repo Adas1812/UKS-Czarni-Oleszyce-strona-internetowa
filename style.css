@@ -424,9 +424,6 @@ div.copyright > p
     width: 413px;
     height: 250px;
     text-align: center;
-    display: flex;
-    text-align: center;
-    justify-content: center;
 }
 .overlay .link
 {
@@ -439,6 +436,9 @@ div.copyright > p
     left: 0px;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .overlay:hover .link
 {
