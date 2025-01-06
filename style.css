@@ -165,12 +165,11 @@ ul.pilot > a::after
     height: 2px;
     text-decoration-line: underline;
     text-decoration-color: #EEEEEE;
+    color: #EEEEEE;
 }
 ul.pilot > a:hover::after
 {
     width: 100%;
-    text-decoration-line: underline;
-    text-decoration-color: #EEEEEE;
 }
 ul.pilot > a.active, ul.pilot > a.active::after
 {
