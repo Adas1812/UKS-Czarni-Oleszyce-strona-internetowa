@@ -418,28 +418,14 @@ div.copyright > p
 {
     color: #FFFFFF
 }
-.overlay1
+.overlay
 {
     position: relative;
     width: 413px;
     height: 250px;
     text-align: center;
 }
-.overlay2
-{
-    position: relative;
-    width: 413px;
-    height: 250px;
-    text-align: center;
-}
-.overlay3
-{
-    position: relative;
-    width: 413px;
-    height: 250px;
-    text-align: center;
-}
-.overlay1, .overlay2, .overlay3.link
+.overlay.link
 {
     position: absolute;
     display: block;
@@ -451,7 +437,7 @@ div.copyright > p
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
-.overlay1, .overlay2, .overlay3:hover .link
+.overlay:hover .link
 {
     opacity: 0.9;
 }
