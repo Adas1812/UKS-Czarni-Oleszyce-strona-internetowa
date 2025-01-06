@@ -425,7 +425,7 @@ div.copyright > p
     height: 250px;
     text-align: center;
 }
-.overlay.link
+.overlay .link
 {
     position: absolute;
     display: block;
