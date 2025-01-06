@@ -434,7 +434,7 @@ div.copyright > p
     top: 0px;
     left: 0px;
     opacity: 0;
-    transition: 1s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 .overlay:hover .link
 {
