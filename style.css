@@ -153,18 +153,26 @@ ul.pilot > a
     padding-right: 30px;
     padding-left: 30px;
     font-size: 20px;
+    position: relative;
+    transition: 0.3s ease;
 }
-ul.pilot > a:hover
+ul.pilot > a::after
 {
-    color: #EEEEEE;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
     text-decoration-line: underline;
     text-decoration-color: #EEEEEE;
-    text-decoration-style: solid;
-    text-decoration-thickness: 2px;
 }
-.main
+ul.pilot > a:hover::after
 {
-   width: 100%;
+    width: 100%;
+}
+ul.pilot > a.active, ul.pilot > a.active::after
+{
+    width: 100%;
 }
 .news
 {
