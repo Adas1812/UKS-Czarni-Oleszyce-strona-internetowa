@@ -453,6 +453,6 @@ i.icon-search > p
 {
     font-size: 40px;
     color: #FFFFFF;
-    margin-top: 10px;
-
+    position: relative;
+    top: 10px;
 }
