@@ -280,14 +280,12 @@ ul.pilot > a:hover
     width: 413px;
     height: 250px;
     pointer-events: none;
-    padding: left;
 }
 .rectangle-photos2
 {
     width: 413px;
     padding-left: 10px;
     padding-right: 10px;
-    padding: left;
 }
 .img-photos3
 {
