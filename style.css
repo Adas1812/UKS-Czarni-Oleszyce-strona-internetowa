@@ -157,8 +157,10 @@ ul.pilot > a
 ul.pilot > a:hover
 {
     color: #EEEEEE;
-    text-decoration-line: underline 2px solid;
+    text-decoration-line: underline;
     text-decoration-color: #EEEEEE;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
 }
 .main
 {
