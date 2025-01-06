@@ -440,3 +440,8 @@ div.copyright > p
 {
     opacity: 0.9;
 }
+i.icon-search > p
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
