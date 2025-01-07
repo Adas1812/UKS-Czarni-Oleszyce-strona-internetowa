@@ -512,8 +512,8 @@ div.main-section > p
 }
 .galeria-onas
 {
-    max-width: 300px;
-    max-height: 100px;
+    min-width: 300px;
+    min-height: 100px;
     padding: 10px;
 }
 .galeria-header
