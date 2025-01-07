@@ -504,7 +504,7 @@ div.main-section > p
 }
 .galeria
 {
-    padding-top: 30px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
