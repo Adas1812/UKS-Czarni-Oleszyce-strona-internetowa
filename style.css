@@ -501,6 +501,7 @@ div.main-section > p
 .ul-onas > li
 {
     text-align: center;
+    text-decoration: none;
 }
 .galeria
 {
@@ -516,7 +517,7 @@ div.main-section > p
     max-height: 100px;
     padding: 10px;
 }
-.galeria-heaeder
+.galeria-header
 {
     font-size: 25px;
     text-transform: uppercase;
