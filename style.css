@@ -8,6 +8,9 @@ body
     flex-direction: column;
     min-height: 100vh;
 }
+/* Strona Główna */
+
+/* header */
 .menu
 {
     margin: 0 25px;
@@ -175,6 +178,7 @@ ul.pilot > a.active::after
 {
     width: 100%;
 }
+/* Main */
 .news
 {
    width: 100%;
@@ -239,14 +243,14 @@ ul.pilot > a.active::after
 {
     transform: scale(0.9)
 }
-.title-main1
+.title-main
 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: left;
     padding-bottom: 30px;
 }
-.title-main2
+.title-main
 {
     font-size: 30px;
     text-transform: uppercase;
@@ -350,6 +354,7 @@ i.icon-search > p
     position: relative;
     top: 50px;
 }
+/* footer */
 .footer
 {
     width: 100%;
@@ -465,7 +470,49 @@ div.phone > p
 }
 div.copyright > p
 {
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
+/* o nas */
+
+.container-main
+{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main-section
+{
+    width: 100%
+}
+div.main-section > p
+{
+    text-align: center;
+}
+.header-onas
+{
+    text-align: center;
+}
+.ul-onas
+{
+    
+}
+.ul-onas > li
+{
+    text-align: center;
+}
+.galeria
+{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.galeria-onas
+{
+    max-width: 300px;
+    max-height: 100px;
+    padding: 10px;
+}
 
