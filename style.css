@@ -557,4 +557,15 @@ ul.nabor-text
 .rectangle-nabor
 {
     display: block;
+    text-align: center;
+}
+ul.nabor-kontakt > li
+{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+ul.nabor-kontakt
+{
+    margin: 20px;
+    padding: 10px;
 }
