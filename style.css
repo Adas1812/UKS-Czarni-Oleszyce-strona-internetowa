@@ -535,6 +535,8 @@ div.main-section > p
 {
     text-align: center;
     font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .title-oferta
 {
