@@ -577,6 +577,6 @@ ul.nabor-kontakt > a > li
 }
 a > li > .icon-phone
 {
-    list-style-position: inside;
-    padding-left: 0;
+    vertical-align: middle;
+    padding-right: 5px;
 }
