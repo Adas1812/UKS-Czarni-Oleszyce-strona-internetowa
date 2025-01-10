@@ -191,6 +191,7 @@ ul.pilot > a.active::after
    flex-direction: row;
    text-align: center;
    justify-content: center;
+   display: block;
 }
 .article1
 {
