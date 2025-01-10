@@ -530,4 +530,16 @@ div.main-section > p
     justify-content: center;
     align-items: center;
 }
+/* Nabór */
+.title-nabor
+{
+    text-align: center;
+    font-size: 40px;
+}
+.title-oferta
+{
+    color: #D3D3D3;
+    text-align: center;
+    padding: 20px;
+}
 
