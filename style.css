@@ -570,12 +570,13 @@ ul.nabor-kontakt
     margin: 20px;
     padding: 10px;
 }
-ul.nabor-kontakt > a
+ul.nabor-kontakt > a > li
 {
     margin-bottom: 10px;
     list-style-type: none;
 }
 ul.nabor-kontakt > li > i.icon-phone
 {
+    list-style-position: inside;
     padding-left: 0;
 }
