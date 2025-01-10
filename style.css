@@ -631,7 +631,7 @@ ul.nabor-kontakt > li a:hover
 .background-rozgrywki
 {
     width: 100%;
-    height: 100px;
+    max-height: 400px;
 }
 .rozgrywki-section
 {
