@@ -578,5 +578,5 @@ ul.nabor-kontakt > a > li
 ul.nabor-kontakt > li > i.icon-phone
 {
     list-style-position: inside;
-    padding-left: 0;
+    padding-left: 20px;
 }
