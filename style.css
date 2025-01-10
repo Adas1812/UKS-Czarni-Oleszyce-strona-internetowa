@@ -635,6 +635,7 @@ ul.nabor-kontakt > li a:hover
     max-height: 400px;
     pointer-events: none;
     border-radius: 15px;
+    transition: opacity 0.3s ease
 }
 .rozgrywki-section
 {
@@ -644,17 +645,22 @@ ul.nabor-kontakt > li a:hover
     justify-content: center;
     width: 100%;
 }
-.overlay-rozgrywki
+.container-background
 {
     position: relative;
-    width: 100%;
-    max-height: 400px;
-    text-align: center;
+    display: inline-block;
 }
-.link-rozgrywki
+.container-background:hover .background-rozgrywki
 {
+    opacity: 0.7;
 }
-.overlay:hover .link
+.container-background::after
 {
-    opacity: 0.9;
+    content: '';
+    position: absolute;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    display: block;
 }
