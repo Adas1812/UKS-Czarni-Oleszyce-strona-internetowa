@@ -543,4 +543,7 @@ div.main-section > p
     text-align: center;
     margin-bottom: 30px;
 }
-
+ul.nabor-text > li
+{
+    list-style-type: none;
+}
