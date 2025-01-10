@@ -578,6 +578,7 @@ ul.nabor-kontakt > li a
 }
 ul.nabor-kontakt i
 {
+    display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
 }
