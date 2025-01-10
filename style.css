@@ -630,8 +630,8 @@ ul.nabor-kontakt > li a:hover
 }
 .background-rozgrywki
 {
-    max-width: 1280px;
-    max-height: 100px;
+    width: 100%;
+    height: 100px;
 }
 .rozgrywki-section
 {
