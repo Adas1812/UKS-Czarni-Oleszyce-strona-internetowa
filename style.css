@@ -578,3 +578,9 @@ ul.nabor-kontakt > li a
     text-decoration: none;
     color: #000;
 }
+ul.nabor-kontakt i
+{
+    margin-right: 0; 
+    padding-right: 0; 
+    vertical-align: middle;
+}
