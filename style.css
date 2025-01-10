@@ -547,7 +547,7 @@ ul.nabor-text > li
 {
     margin-bottom: 10px;
     list-style-position: inside;
-    padding-left: 10px;
+    padding-left: 0;
     list-style-type: '-';
 }
 ul.nabor-text
