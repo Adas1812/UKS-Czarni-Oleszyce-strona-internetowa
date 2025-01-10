@@ -559,28 +559,35 @@ ul.nabor-text
     display: block;
     text-align: center;
 }
-ul.nabor-kontakt > li
-{
-    margin-bottom: 10px;
-    padding-left: 0;
-    list-style-type: none;
-    gap: 0;
-    
-}
+
 ul.nabor-kontakt
 {
     margin: 20px;
     padding: 10px;
     list-style-type: none;
 }
-ul.nabor-kontakt > li a
-{
-    text-decoration: none;
-    color: #000;
-}
-ul.nabor-kontakt i
+ul.nabor-kontakt i 
 {
     margin-right: 0; 
-    padding-right: 0; 
-    vertical-align: middle;
+    padding-right: 0;
+    vertical-align: middle; 
+}
+
+ul.nabor-kontakt > li 
+{
+    display: flex; 
+    align-items: center; 
+    gap: 0; 
+    margin-bottom: 10px; 
+    padding-left: 0; 
+    list-style-type: none; 
+}
+
+ul.nabor-kontakt > li a 
+{
+    text-decoration: none; 
+    color: #000; 
+    display: flex; 
+    align-items: center; 
+    gap: 0; 
 }
