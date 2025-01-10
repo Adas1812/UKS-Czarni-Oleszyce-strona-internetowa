@@ -626,12 +626,13 @@ ul.nabor-kontakt > li a:hover
     font-size: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
-
 }
 .background-rozgrywki
 {
     width: 100%;
     max-height: 400px;
+    pointer-events: none;
+    border-radius: 15px;
 }
 .rozgrywki-section
 {
