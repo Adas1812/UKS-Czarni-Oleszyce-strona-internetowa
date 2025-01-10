@@ -191,7 +191,6 @@ ul.pilot > a.active::after
    flex-direction: row;
    text-align: center;
    justify-content: center;
-   display: block;
 }
 .article1
 {
@@ -554,4 +553,8 @@ ul.nabor-text
 {
     margin: 20px;
     padding: 10px;
+}
+.rectangle-nabor
+{
+    display: block;
 }
