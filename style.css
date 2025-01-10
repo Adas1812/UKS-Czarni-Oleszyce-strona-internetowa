@@ -598,7 +598,7 @@ ul.nabor-kontakt > li a
 ul.nabor-kontakt > li a:hover
 {
     text-decoration: none; 
-    color: #111; 
+    color: #444; 
     display: flex; 
     align-items: center; 
     gap: 0; 
