@@ -563,7 +563,9 @@ ul.nabor-kontakt > li
 {
     margin-bottom: 10px;
     padding-left: 0;
-    list-style-type: none
+    list-style-type: none;
+    gap: 0;
+    
 }
 ul.nabor-kontakt
 {
@@ -575,8 +577,4 @@ ul.nabor-kontakt > li a
 {
     text-decoration: none;
     color: #000;
-}
-.icon-phone
-{
-    padding-right: 5px;
 }
