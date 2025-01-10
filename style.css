@@ -659,8 +659,28 @@ ul.nabor-kontakt > li a:hover
     content: '';
     position: absolute;
     background-color: #333;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
     opacity: 0;
     display: block;
+    transition: opacity 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.link-rozgrywki
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: center;
+}
+.link-rozgrywki:hover
+{
+    opacity: 0.7;
 }
