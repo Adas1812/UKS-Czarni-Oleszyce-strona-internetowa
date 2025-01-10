@@ -595,3 +595,11 @@ ul.nabor-kontakt > li a
     align-items: center; 
     gap: 0; 
 }
+ul.nabor-kontakt > li a:hover
+{
+    text-decoration: none; 
+    color: #111; 
+    display: flex; 
+    align-items: center; 
+    gap: 0; 
+}
