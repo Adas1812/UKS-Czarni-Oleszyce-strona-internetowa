@@ -594,6 +594,7 @@ ul.nabor-kontakt > li a
     display: flex; 
     align-items: center; 
     gap: 0; 
+    transition: 2s ease-in-out
 }
 ul.nabor-kontakt > li a:hover
 {
