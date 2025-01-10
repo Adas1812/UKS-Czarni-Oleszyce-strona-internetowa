@@ -576,9 +576,7 @@ ul.nabor-kontakt > li a
     text-decoration: none;
     color: #000;
 }
-ul.nabor-kontakt i
+.icon-phone
 {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 5px;
+    padding-right: 5px;
 }
