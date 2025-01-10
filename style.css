@@ -546,9 +546,11 @@ div.main-section > p
 ul.nabor-text > li
 {
     margin-bottom: 10px;
+    list-style-position: inside;
+    padding-left: 20px;
 }
 ul.nabor-text
 {
     margin: 20px;
-    padding: 0;
+    padding: 10px;
 }
