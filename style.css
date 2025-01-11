@@ -644,7 +644,7 @@ ul.nabor-kontakt > li a:hover
     justify-content: center;
     width: 100%;
 }
-.background-rozgrywki
+.background-rozgrywki:hover
 {
     transform: scale(0.95)
 }
