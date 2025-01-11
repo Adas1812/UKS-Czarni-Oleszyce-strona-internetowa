@@ -700,23 +700,22 @@ ul.nabor-kontakt > li a:hover
 {
    text-align: center;
    border: 1px solid;
+   float: left;
 }
 .email-k
 {
     text-align: center;
     border: 1px solid;
+    clear: both;
 }
 .telefon-k
 {
     text-align: center;
     border: 1px solid;
+    float: right;
 }
 .kontakt-page-section
 {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
     gap: 40px;
 }
