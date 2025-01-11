@@ -743,5 +743,6 @@ ul.nabor-kontakt > li a:hover
     font-size: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
+    text-transform: uppercase;
 
 }
