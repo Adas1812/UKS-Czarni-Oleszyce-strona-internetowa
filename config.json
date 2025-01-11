@@ -53,6 +53,12 @@
       "css": "commerical-building",
       "code": 59409,
       "src": "maki"
+    },
+    {
+      "uid": "ccc2329632396dc096bb638d4b46fb98",
+      "css": "mail-alt",
+      "code": 61664,
+      "src": "fontawesome"
     }
   ]
 }

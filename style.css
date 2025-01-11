@@ -670,6 +670,7 @@ ul.nabor-kontakt > li a:hover
 .adres-k
 {
    text-align: center;
+   padding: 20px;
 }
 .kontakt-k
 {
@@ -685,6 +686,7 @@ ul.nabor-kontakt > li a:hover
 .email-k
 {
     text-align: center;
+    padding: 20px;
 }
 div.email-k > i.icon-phone
 {
@@ -694,8 +696,9 @@ div.email-k > i.icon-phone
 .telefon-k
 {
     text-align: center;
+    padding: 20px;
 }
-div.email-k > i.icon-mail
+.icon-mail-alt
 {
     font-size: 30px;
     color: #808080;
