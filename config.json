@@ -47,6 +47,12 @@
       "css": "search",
       "code": 59395,
       "src": "fontawesome"
+    },
+    {
+      "uid": "fc455b9530e0b37facc289f42a120fdd",
+      "css": "commerical-building",
+      "code": 59409,
+      "src": "maki"
     }
   ]
 }
