@@ -676,7 +676,8 @@ ul.nabor-kontakt > li a:hover
     font-size: 20px;
     text-transform: uppercase;
     color: #808080;
-    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .icon-commerical-building
 {
