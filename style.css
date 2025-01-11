@@ -696,7 +696,7 @@ ul.nabor-kontakt > li a:hover
     margin: 0;
     line-height: 1;
 }
-.adres-k
+.adres-k!
 {
    text-align: center;
    border: 1px solid;
@@ -707,9 +707,8 @@ ul.nabor-kontakt > li a:hover
     text-align: center;
     border: 1px solid;
     float: left;
-    position: absolute;
 }
-.telefon-k
+.telefon-k!
 {
     text-align: center;
     border: 1px solid;
@@ -719,5 +718,4 @@ ul.nabor-kontakt > li a:hover
 {
     width: 100%;
     gap: 40px;
-    position: relative;
 }
