@@ -634,7 +634,7 @@ ul.nabor-kontakt > li a:hover
     width: 244px;
     max-height: 412px;
     pointer-events: none;
-    transition: 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 .rozgrywki-section
 {
@@ -646,5 +646,5 @@ ul.nabor-kontakt > li a:hover
 }
 .background-rozgrywki:hover
 {
-    transform: scale(0.95)
+    transform: scale(0.9)
 }
