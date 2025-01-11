@@ -688,6 +688,7 @@ ul.nabor-kontakt > li a:hover
 {
     text-align: center;
     padding-left: 20px;
+    padding-right: 20px;
 }
 .icon-phone-1
 {
@@ -698,7 +699,6 @@ ul.nabor-kontakt > li a:hover
 {
     text-align: center;
     padding-left: 20px;
-    padding-right: 20px;
 }
 .icon-mail-alt
 {
