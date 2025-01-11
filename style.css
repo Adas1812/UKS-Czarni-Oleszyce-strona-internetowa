@@ -706,13 +706,13 @@ ul.nabor-kontakt > li a:hover
 {
     text-align: center;
     border: 1px solid;
-    clear: both;
+    clear: left;
 }
 .telefon-k
 {
     text-align: center;
     border: 1px solid;
-    float: right;
+    float: left;
 }
 .kontakt-page-section
 {
