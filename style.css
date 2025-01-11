@@ -673,6 +673,7 @@ ul.nabor-kontakt > li a:hover
 .adres-k
 {
    text-align: center;
+   padding: 0;
 }
 .kontakt-k
 {
@@ -688,6 +689,7 @@ ul.nabor-kontakt > li a:hover
 .email-k
 {
     text-align: center;
+    padding: 0;
     
 }
 .icon-phone-1
@@ -698,6 +700,7 @@ ul.nabor-kontakt > li a:hover
 .telefon-k
 {
     text-align: center;
+    padding: 0;
 }
 .icon-mail-alt
 {
