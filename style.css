@@ -606,23 +606,19 @@ ul.nabor-kontakt > li a:hover
 }
 .rozgrywki1
 {
-    width: 100%;
-    transition: 0.2s ease;
+    width: 100%
 }
 .rozgrywki2
 {
-    width: 100%;
-    transition: 0.2s ease;
+    width: 100%
 }
 .rozgrywki3
 {
-    width: 100%;
-    transition: 0.2s ease;
+    width: 100%
 }
 .rozgrywki4
 {
-    width: 100%;
-    transition: 0.2s ease;
+    width: 100%
 }
 .rozgrywki-title
 {
@@ -638,6 +634,7 @@ ul.nabor-kontakt > li a:hover
     width: 244px;
     max-height: 412px;
     pointer-events: none;
+    transition: 0.3s ease-in-out;
 }
 .rozgrywki-section
 {
@@ -647,10 +644,7 @@ ul.nabor-kontakt > li a:hover
     justify-content: center;
     width: 100%;
 }
-.rozgrywki1, 
-.rozgrywki2,
-.rozgrywki3,
-.rozgrywki4:hover
+.background-rozgrywki
 {
-    transform: scale(0.9);
+    transform: scale(0.95)
 }
