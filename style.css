@@ -728,5 +728,8 @@ ul.nabor-kontakt > li a:hover
     width: 100%;
     gap: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
+    margin: 0;
+    padding: 0;
+
 }
