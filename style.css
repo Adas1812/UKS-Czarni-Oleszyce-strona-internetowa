@@ -702,4 +702,7 @@ div.email-k > i.icon-mail
     font-size: 30px;
     color: #808080;
 }
-
+.rectangle-kontakt
+{
+    flex-direction: column;
+}
