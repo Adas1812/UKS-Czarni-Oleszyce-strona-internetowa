@@ -696,22 +696,20 @@ ul.nabor-kontakt > li a:hover
     margin: 0;
     line-height: 1;
 }
-.adres-k!
+.adres-k
 {
    text-align: center;
    border: 1px solid;
-   float: left;
 }
 .email-k
 {
     text-align: center;
     border: 1px solid;
 }
-.telefon-k!
+.telefon-k
 {
     text-align: center;
     border: 1px solid;
-    float: left;
 }
 .kontakt-page-section
 {
