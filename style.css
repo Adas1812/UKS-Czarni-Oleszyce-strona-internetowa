@@ -714,4 +714,6 @@ ul.nabor-kontakt > li a:hover
     font-size: 25px;
     color: #606060;
     text-align: center;
+    margin: 0;
+    line-height: 1;
 }
