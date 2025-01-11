@@ -662,6 +662,7 @@ ul.nabor-kontakt > li a:hover
     text-align: center;
     font-size: 40px;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 .kontakt-k
 {
@@ -732,5 +733,15 @@ ul.nabor-kontakt > li a:hover
     align-items: stretch;
     margin: 0;
     padding: 0;
+
+}
+/* Zdjecia */
+
+.title-zdj
+{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
 }
