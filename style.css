@@ -704,6 +704,7 @@ ul.nabor-kontakt > li a:hover
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   width: 300px;
 }
 .email-k
 {
@@ -713,6 +714,7 @@ ul.nabor-kontakt > li a:hover
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   width: 300px;
 }
 .telefon-k
 {
@@ -722,6 +724,7 @@ ul.nabor-kontakt > li a:hover
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   width: 300px;
 }
 .kontakt-page-section
 {
