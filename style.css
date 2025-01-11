@@ -606,19 +606,23 @@ ul.nabor-kontakt > li a:hover
 }
 .rozgrywki1
 {
-    width: 100%
+    width: 100%;
+    transition: 0.2s ease;
 }
 .rozgrywki2
 {
-    width: 100%
+    width: 100%;
+    transition: 0.2s ease;
 }
 .rozgrywki3
 {
-    width: 100%
+    width: 100%;
+    transition: 0.2s ease;
 }
 .rozgrywki4
 {
-    width: 100%
+    width: 100%;
+    transition: 0.2s ease;
 }
 .rozgrywki-title
 {
@@ -642,4 +646,11 @@ ul.nabor-kontakt > li a:hover
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+.rozgrywki1, 
+.rozgrywki2,
+.rozgrywki3,
+.rozgrywki4:hover
+{
+    transform: scale(0.9);
 }
