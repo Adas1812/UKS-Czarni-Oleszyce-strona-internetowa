@@ -660,6 +660,7 @@ ul.nabor-kontakt > li a:hover
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    gap: 20px;
 }
 .title-kontakt
 {
