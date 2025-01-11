@@ -674,7 +674,7 @@ ul.nabor-kontakt > li a:hover
    text-align: center;
    padding-right: 20px;
    display: flex;
-   align-items: center;
+   justify-content: center;
 }
 .kontakt-k
 {
@@ -693,7 +693,7 @@ ul.nabor-kontakt > li a:hover
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     
 }
 .icon-phone-1
@@ -706,7 +706,7 @@ ul.nabor-kontakt > li a:hover
     text-align: center;
     padding-left: 20px;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 .icon-mail-alt
 {
