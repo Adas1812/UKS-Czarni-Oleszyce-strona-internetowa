@@ -662,6 +662,11 @@ ul.nabor-kontakt > li a:hover
     text-align: center;
     gap: 40px;
     padding: 0;
+    margin: 0 auto;
+}
+.rectangle-kontakt
+{
+    width: 100%
 }
 .title-kontakt
 {
@@ -674,6 +679,7 @@ ul.nabor-kontakt > li a:hover
 {
    text-align: center;
    padding: 0;
+   margin: 0;
 }
 .kontakt-k
 {
@@ -690,6 +696,7 @@ ul.nabor-kontakt > li a:hover
 {
     text-align: center;
     padding: 0;
+    margin: 0;
     
 }
 .icon-phone-1
@@ -701,6 +708,7 @@ ul.nabor-kontakt > li a:hover
 {
     text-align: center;
     padding: 0;
+    margin: 0;
 }
 .icon-mail-alt
 {
