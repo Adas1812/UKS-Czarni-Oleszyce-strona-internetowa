@@ -761,3 +761,17 @@ ul.nabor-kontakt > li a:hover
     height: 250px;
     max-width: 413px;
 }
+#gallery2
+{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#gallery2 img 
+{
+    height: 250px;
+    max-width: 413px;
+}
