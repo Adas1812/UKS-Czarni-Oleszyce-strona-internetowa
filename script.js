@@ -16,7 +16,7 @@ const dachnowImages = [
     "img5.jpg",
     "img6.jpg"
 ];
-const dachnowFolderPath = "/galeria/Czarni - Dachnów/"; 
+const dachnowFolderPath = "galeria/Czarni - Dachnów/"; 
 createGallery("gallery1", dachnowFolderPath, dachnowImages);
 
 /* Czarni-Turniej Młodów */
@@ -28,5 +28,5 @@ const turniejImages = [
     "img5.jpg",
     "img6.jpg"
 ];
-const turniejFolderPath = "/galeria/Czarni - Turniej Młodów/"; 
+const turniejFolderPath = "galeria/Czarni - Turniej Młodów/"; 
 createGallery("gallery2", turniejFolderPath, turniejImages);
