@@ -9,7 +9,7 @@ const imageNames = [
 
 const folderPath = "/galeria/Czarni - Dachnów/";
 
-const gallery = document.getElementById("gallery");
+const gallery = document.getElementById("gallery1");
 
 imageNames.forEach((imageName) => {
     const img = document.createElement("img"); 
