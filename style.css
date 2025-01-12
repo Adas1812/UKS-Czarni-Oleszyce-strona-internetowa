@@ -13,19 +13,19 @@ body
 /* header */
 .menu
 {
-    margin: 0 25px;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    padding: 20px 0;
-    background: linear-gradient(to right, #000 25%, transparent 25%) no-repeat, 
-    linear-gradient(to left, #000 25%, transparent 25%) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../UKS-Czarni-Oleszyce-strona-internetowa/img/background-left.jpg') repeat-x;
 }
 .header-content
 {
     background-color: black;
+    padding: 20px;
+    color: white;
     text-align: center;
     z-index: 1;
+    width: 50%;
 }
 .container
 {
