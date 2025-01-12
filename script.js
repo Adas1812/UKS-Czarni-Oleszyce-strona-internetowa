@@ -46,3 +46,14 @@ const turniejImages = [
 const turniejFolderPath = "/galeria/Czarni - Turniej Młodów/";  
 createGallery("gallery2", turniejFolderPath, turniejImages);
 
+// Galeria Czarni-Basznia Dolna
+
+const baszniaImages = [
+    "img1.jpg",
+    "img2.jpg",
+    "img3.jpg",
+    "img4.jpg"
+];
+const baszniaFolderPath = "/galeria/Czarni - Basznia Dolna/";  
+createGallery("gallery3", baszniaFolderPath, baszniaImages);
+
