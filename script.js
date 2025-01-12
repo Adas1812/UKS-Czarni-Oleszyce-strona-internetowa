@@ -1,10 +1,10 @@
 const imageNames = [
-    "galeria/Czarni-Dachnów/img1.jpg",
-    "galeria/Czarni-Dachnów/img2.jpg",
-    "galeria/Czarni-Dachnów/img3.jpg",
-    "galeria/Czarni-Dachnów/img4.jpg",
-    "galeria/Czarni-Dachnów/img5.jpg",
-    "galeria/Czarni-Dachnów/img6.jpg"
+    "img1.jpg",
+    "img2.jpg",
+    "img3.jpg",
+    "img4.jpg",
+    "img5.jpg",
+    "img6.jpg"
 ]
 
 const folderPath = "galeria/";
