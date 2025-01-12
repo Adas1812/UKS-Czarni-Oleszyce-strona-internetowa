@@ -16,13 +16,11 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../UKS-Czarni-Oleszyce-strona-internetowa/img/background-left.jpg') repeat-x;
 }
 .header-content
 {
     background-color: black;
     padding: 20px;
-    color: white;
     text-align: center;
     z-index: 1;
     width: 50%;
