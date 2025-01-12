@@ -1,13 +1,11 @@
-
 function createGallery(containerId, folderPath, imageNames) {
-const gallery = document.getElementById(containerId);
-}
+    const gallery = document.getElementById(containerId); 
+    }
 
-imageNames.forEach((imageName) => {
-    const img = document.createElement("img"); 
-    img.src = folderPath + imageName;
-    gallery.appendChild(img); 
-});
+    imageNames.forEach((imageName) => {
+        const img = document.createElement("img");
+        img.src = folderPath + imageName; 
+        gallery.appendChild(img); });
 
 /* Czarni-Dachnów */
 const dachnowImages = [
@@ -18,8 +16,8 @@ const dachnowImages = [
     "img5.jpg",
     "img6.jpg"
 ];
-const dachnowfolderPath = "/galeria/Czarni - Dachnów/";
-createGallery("gallery1", "/galeria/Czarni - Dachnów/", dachnowImages);
+const dachnowFolderPath = "/galeria/Czarni - Dachnów/"; 
+createGallery("gallery1", dachnowFolderPath, dachnowImages);
 
 /* Czarni-Turniej Młodów */
 const turniejImages = [
@@ -30,6 +28,5 @@ const turniejImages = [
     "img5.jpg",
     "img6.jpg"
 ];
-const turniejfolderPath = "/galeria/Czarni - Turniej Młodów/";
-createGallery("gallery2", "/galeria/Czarni - Turniej Młodów/", turniejImages);
-
+const turniejFolderPath = "/galeria/Czarni - Turniej Młodów/"; 
+createGallery("gallery2", turniejFolderPath, turniejImages);
