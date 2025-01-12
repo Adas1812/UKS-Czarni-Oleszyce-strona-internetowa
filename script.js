@@ -7,7 +7,7 @@ const imageNames = [
     "img6.jpg"
 ]
 
-const folderPath = "/galeria/Czarni - Dachnów";
+const folderPath = "galeria/Czarni - Dachnów/";
 
 const gallery = document.getElementById("gallery");
 
