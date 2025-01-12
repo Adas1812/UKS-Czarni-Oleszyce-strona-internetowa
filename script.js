@@ -39,9 +39,7 @@ const turniejImages = [
     "img1.jpg",
     "img2.jpg",
     "img3.jpg",
-    "img4.jpg",
-    "img5.jpg",
-    "img6.jpg"
+    "img4.jpg"
 ];
 const turniejFolderPath = "/galeria/Czarni - Turniej Młodów/";  
 createGallery("gallery2", turniejFolderPath, turniejImages);
