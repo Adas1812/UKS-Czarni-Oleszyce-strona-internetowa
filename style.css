@@ -744,5 +744,19 @@ ul.nabor-kontakt > li a:hover
     padding-top: 40px;
     padding-bottom: 40px;
     text-transform: uppercase;
+}
+/* Biblioteka Zdj */
 
+#gallery
+{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#gallery img 
+{
+    height: auto;
+    width: 413px;
 }
