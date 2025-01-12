@@ -26,7 +26,7 @@ body
     background-image: url(../UKS-Czarni-Oleszyce-strona-internetowa/img/background-left.jpg);
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
 }
 .container
 {
