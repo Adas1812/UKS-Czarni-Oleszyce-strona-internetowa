@@ -1,28 +1,11 @@
-// Funkcja tworząca galerię
+
 function createGallery(containerId, folderPath, imageNames) {
-    const gallery = document.getElementById(containerId); // Pobieramy kontener po ID
+    const gallery = document.getElementById(containerId); /
     
-    // Sprawdzamy, czy kontener istnieje
-    if (!gallery) {
-        console.error(`Nie znaleziono elementu z ID: ${containerId}`);
-        return;
-    }
 
-    // Dla każdego zdjęcia w tablicy imageNames
     imageNames.forEach((imageName) => {
-        const img = document.createElement("img");  // Tworzymy nowy element <img>
-        img.src = folderPath + imageName; // Ustawiamy ścieżkę do zdjęcia
-        img.alt = `Zdjęcie z galerii ${containerId}`; // Ustawiamy alternatywny tekst
-
-        // Dodajemy nasłuchiwacz zdarzenia, aby sprawdzić, czy zdjęcie zostało poprawnie załadowane
-        img.onload = () => {
-            console.log(`Załadowano zdjęcie: ${imageName}`);
-        };
-        img.onerror = () => {
-            console.error(`Błąd ładowania zdjęcia: ${imageName}`);
-        };
-
-        // Dodajemy zdjęcie do kontenera galerii
+        const img = document.createElement("img");  
+        img.src = folderPath + imageName; 
         gallery.appendChild(img); 
     });
 }
@@ -36,7 +19,7 @@ const dachnowImages = [
     "img5.jpg",
     "img6.jpg"
 ];
-const dachnowFolderPath = "galeria/Czarni - Dachnów/";  // Ścieżka do zdjęć
+const dachnowFolderPath = "galeria/Czarni - Dachnów/";  
 createGallery("gallery1", dachnowFolderPath, dachnowImages);
 
 // Galeria Czarni-Turniej Młodów
@@ -48,5 +31,5 @@ const turniejImages = [
     "img5.jpg",
     "img6.jpg"
 ];
-const turniejFolderPath = "galeria/Czarni - Turniej Młodów/";  // Ścieżka do zdjęć
+const turniejFolderPath = "galeria/Czarni - Turniej Młodów/";  
 createGallery("gallery2", turniejFolderPath, turniejImages);
