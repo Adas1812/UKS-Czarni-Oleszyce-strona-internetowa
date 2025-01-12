@@ -15,23 +15,12 @@ body
 {
     margin: 0 25px;
     width: 100vw;
-    background-color: #000;
+    background-color:#000;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     padding: 20px 0;
-    position: relative;
-}
-.heaeder-left
-{
-    right: 0;
-    top: 0;
-    position: absolute;
-}
-.header-right
-{
-    left: 0;
-    top: 0;
-    position: absolute;
+    background: linear-gradient(to right, #000 25%, transparent 25%) no-repeat, 
+    linear-gradient(to left, #000 25%, transparent 25%) no-repeat;
 }
 .container
 {
