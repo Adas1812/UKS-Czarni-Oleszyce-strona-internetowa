@@ -34,6 +34,7 @@ body
     position: absolute;
     top: 0;
     left: 0;
+    pointer-events: none;
 }
 .header-right
 {
@@ -41,6 +42,7 @@ body
     position: absolute;
     top: 0;
     right: 0; 
+    pointer-events: none;
 }
 .container
 {
@@ -447,7 +449,7 @@ i.icon-search > p
 {
     margin: 0;
     width: 100vw;
-    background-image: url(img/background.jpg);
+    background-color: black;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     padding: 20px 0;
