@@ -281,10 +281,13 @@ ul.pilot > a.active::after
 }
 .title-main
 {
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
     text-align: left;
-    padding-bottom: 30px;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 .undertext
 {
@@ -546,34 +549,6 @@ div.main-section > p
 {
     text-align: center;
 }
-.galeria
-{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.galeria-onas
-{
-    width: 300px;
-    height: 175px;
-    padding: 10px;
-}
-.galeria-header
-{
-    font-size: 25px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 10px 0;
-}
-.galeria-zdjecia
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 /* Nabór */
 .title-nabor
 {
@@ -581,6 +556,7 @@ div.main-section > p
     font-size: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
+    text-transform: uppercase;
 }
 .title-oferta
 {
@@ -707,6 +683,7 @@ ul.nabor-kontakt > li a:hover
     font-size: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
+    text-transform: uppercase;
 }
 .kontakt-k
 {
