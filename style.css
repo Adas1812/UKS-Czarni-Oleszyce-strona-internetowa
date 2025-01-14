@@ -21,6 +21,30 @@ body
     background-color: black;
     height: 180px;
 }
+.header-menu-container
+{
+    background-color: #111;
+    height: 150px;
+
+}
+.header-center
+{
+
+}
+.header-left
+{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-right
+{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .container
 {
     clear: both;
@@ -115,6 +139,7 @@ h6.text1-text
     width: 150px;
     height: 150px;
     pointer-events: none;
+    z-index: 1;
 }
 .nazwa
 {
@@ -131,6 +156,8 @@ h6.text1-text
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: #000;
+    height: 30px;
 }
 ul.pilot
 {
