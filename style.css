@@ -155,7 +155,7 @@ h6.text1-text
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #0D0D0D;
+    background-color: #080808;
     padding-top: 15px;
     padding-bottom: 15px;
     height: 30px;
@@ -453,6 +453,7 @@ i.icon-search > p
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     padding: 20px 0;
+    height: 200px;
 }
 .media
 {
