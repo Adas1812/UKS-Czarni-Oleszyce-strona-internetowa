@@ -574,7 +574,6 @@ ul.nabor-text
 {
     margin: 20px;
     padding: 10px;
-    line-height: 1;
 }
 .rectangle-nabor
 {
@@ -584,7 +583,8 @@ ul.nabor-text
 
 ul.nabor-kontakt
 {
-    margin: 10px;
+    margin: 20px;
+    padding: 10px;
     list-style-type: none;
 }
 ul.nabor-kontakt i 
