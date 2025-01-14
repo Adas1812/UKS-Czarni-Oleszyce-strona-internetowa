@@ -18,13 +18,7 @@ body
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: 
-        url(../UKS-Czarni-Oleszyce-strona-internetowa/img/background-left.jpg) left center no-repeat, 
-        black center center, 
-        url(../UKS-Czarni-Oleszyce-strona-internetowa/img/background-right.jpg) right center no-repeat; 
+    background-color: black;
 }
 .container
 {
