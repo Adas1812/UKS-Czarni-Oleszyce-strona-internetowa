@@ -122,16 +122,16 @@ h6.text1-text
     padding-left: 50px;
     max-height: 150px;
 }
-.icon-facebook-official
+.icon-facebook
 { 
     font-size: 80px;
-    color: #4169E1;
+    color: #FFFFFF;
     position: relative; 
     top: 30px;
 }
-.icon-facebook-official:hover
+.icon-facebook:hover
 {
-    color: #3069d0
+    color: #EEEEEE
 }
 .herb
 {
