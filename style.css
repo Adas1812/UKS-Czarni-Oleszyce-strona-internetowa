@@ -234,7 +234,7 @@ ul.pilot > a.active::after
 }
 .article1:hover
 {
-    transform: scale(0.9)
+    transform: scale(0.95)
 }
 .article2
 {
@@ -253,7 +253,7 @@ ul.pilot > a.active::after
 }
 .article2:hover
 {
-    transform: scale(0.9)
+    transform: scale(0.95)
 }
 .article3
 {
@@ -270,7 +270,7 @@ ul.pilot > a.active::after
 }
 .article3:hover
 {
-    transform: scale(0.9)
+    transform: scale(0.95)
 }
 .title-main
 {

@@ -16,9 +16,12 @@
 
 <body>
   <div class="menu">
+    <div class="header-menu-container">
+    <img alt="mozaika" class="header-left" src="img/background-left.png" loading="lazy" width="150" height="150">
+    <img alt="mosaic" class="header-right" src="img/background-right.png" loading="lazy" width="150" height="150">
      <div class="container">
        <div class="section-left">
-         <img class="herb" src="/img/logo czarni2.png">
+         <img class="herb" src="img/logo czarni2.png">
          <h1 class="nazwa">UKS Czarni Oleszyce</h1>
        </div>
        <div class="section-right">
@@ -31,23 +34,32 @@
               </div>
             </aside></a>
             <aside id="text2">
-               <a href="https://www.facebook.com/profile.php?id=100057389262123&mibextid=wwXIfr"><i class="icon-facebook-official"></i></a>
+               <a href="https://www.facebook.com/profile.php?id=100057389262123&mibextid=wwXIfr"><i class="icon-facebook"></i></a>
             </aside>
          </div>
        </div>
      </div>
+    </div>
      <nav class="nav">
       <ul class="pilot">
-        <a href="/index.html"><li>Strona Główna</li></a>
-        <a href="/pages/O nas.html"><li>O nas</li></a>
+        <a href="index.html"><li>Strona Główna</li></a>
+        <a href="pages/O nas.html"><li>O nas</li></a>
         <a href="pages/Aktualności.html"><li>Aktualności</li></a>
-        <a href="/pages/Rozgrywki.html"><li>Rozgrywki</li></a>
-        <a href="/pages/Nabór.html"><li>Nabór</li></a>
-        <a href="/pages/Zdjęcia.html"><li>Zdjęcia</li></a>
-        <a href="/pages/Kontakt.html"><li>Kontakt</li></a>
+        <a href="pages/Rozgrywki.html"><li>Rozgrywki</li></a>
+        <a href="pages/Nabór.html"><li>Nabór</li></a>
+        <a href="pages/Zdjęcia.html"><li>Zdjęcia</li></a>
+        <a href="pages/Kontakt.html"><li>Kontakt</li></a>
       </ul>
+      <script>
+        document.querySelectorAll('.pilot > li > a').forEach(link => {
+            if (link.href === window.location.href) {
+                link.classList.add('active');
+            }
+        });
+    </script>
      </nav>
-  </div>
+</div>
+
 
    <div class="main">
 
@@ -88,6 +100,8 @@
     </div>
 
     <div class="contact">
+      <img alt="mazaika" class="footer-left" src="img/background-bottom-left.png" loading="lazy" width="150" height="150">
+      <img alt="mosaica" class="footer-right" src="img/background-bottom-right.png" loading="lazy" width="150" height="150">
       <div class="media">
         <div class="phone">
           <p>733 833 780<i class="icon-phone"></i></p>
@@ -100,6 +114,7 @@
         <p>&copy 2025 UKS Czarni Oleszyce. Wszelkie prawa zastrzeżone</p>
       </div>
     </div>
+
 
    </div>
 
