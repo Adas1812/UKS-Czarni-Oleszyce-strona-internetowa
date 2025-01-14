@@ -26,6 +26,7 @@ body
     background-color: black;;
     height: 150px;
     margin: 0;
+    position: relative;
 }
 .header-center
 {
