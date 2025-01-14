@@ -209,7 +209,7 @@ ul.pilot > a.active::after
 .news
 {
    width: 100%;
-   margin-top: 60px;
+   padding-top: 30px;
 }
 .rectangle-top-main
 {
