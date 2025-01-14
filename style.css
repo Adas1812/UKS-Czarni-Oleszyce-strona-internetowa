@@ -18,7 +18,6 @@ body
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     padding: 20px 0;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
