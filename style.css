@@ -454,6 +454,21 @@ i.icon-search > p
     margin-right: calc(-50vw + 50%);
     padding: 20px 0;
     height: 150px;
+    position: relative;
+}
+.footer-left
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.footer-right
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
 }
 .media
 {
