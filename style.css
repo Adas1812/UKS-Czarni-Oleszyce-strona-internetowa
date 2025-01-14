@@ -20,17 +20,13 @@ body
     padding: 20px 0;
     background-color: black;
     height: 180px;
+    position: relative;
 }
 .header-menu-container
 {
     background-color: black;;
     height: 150px;
     margin: 0;
-    position: relative;
-}
-.header-center
-{
-
 }
 .header-left
 {
@@ -44,7 +40,7 @@ body
     z-index: 1;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0; 
 }
 .container
 {
