@@ -452,7 +452,6 @@ i.icon-search > p
     background-color: black;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
-    padding: 20px 0;
     height: 150px;
     position: relative;
 }
