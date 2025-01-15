@@ -114,3 +114,35 @@ function displayNews(newsItems) {
 }
 
 fetchNews();
+
+async function fetchNews() {
+    const query = `
+        query {
+            aktualnoscis {
+                header
+                date
+                image {
+                    url
+                }
+            }
+        }
+    `;
+    const response = await fetch(API_URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${ACCESS_TOKEN}`,
+        },
+        body: JSON.stringify({ query }),
+    });
+    const data = await response.json();
+
+    console.log('API Response:', data); // Dodaj logowanie odpowiedzi
+
+    if (data.errors) {
+        console.error('Błąd podczas pobierania danych:', data.errors);
+        return;
+    }
+
+    displayNews(data.data.aktualnoscis);
+}
