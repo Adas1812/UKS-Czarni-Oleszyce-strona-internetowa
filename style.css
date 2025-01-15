@@ -159,17 +159,6 @@ h6.text1-text
     height: 30px;
     position: relative;
 }
-nav::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
-    transform: skewY(-10deg);
-    transform-origin: top;
-  }
 ul.pilot
 {
     padding: 0;
