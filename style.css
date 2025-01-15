@@ -73,8 +73,6 @@ body
 {
     float: left;
     padding-right: 50px;
-    border-right: 1px dashed;
-    border-color: #FFFFFF;
     display: flex;
     justify-content: center;
     flex-direction: row;
