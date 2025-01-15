@@ -157,7 +157,7 @@ h6.text1-text
     padding-top: 15px;
     padding-bottom: 15px;
     height: 30px;
-    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 ul.pilot
 {
