@@ -66,11 +66,11 @@ async function fetchNews() {
     const query = `
         query {
             aktualnoscis {
+                header
+                date
                 image {
-                id
-                  }
-    header
-    date
+                    url
+                }
             }
         }
     `;
@@ -82,34 +82,48 @@ async function fetchNews() {
         },
         body: JSON.stringify({ query }),
     });
+
+    
     const data = await response.json();
-    displayNews(data.data.newsItems);
+    console.log('API Response:', data); 
+
+    
+    if (data.errors) {
+        console.error('Błąd podczas pobierania danych:', data.errors);
+        return;
+    }
+
+    
+    if (data.data && data.data.aktualnoscis) {
+        displayNews(data.data.aktualnoscis);
+    } else {
+        console.error('Brak danych w odpowiedzi');
+    }
 }
 
 function displayNews(newsItems) {
-    const newsList = document.getElementById('news-container');  
+    const newsContainer = document.getElementById('news-container');
+    newsContainer.innerHTML = ''; 
+
     newsItems.forEach(item => {
         const article = document.createElement('article');
+
         const header = document.createElement('h3');
-        header.textContent = item.header;  
+        header.textContent = item.header;
 
         const date = document.createElement('p');
         date.textContent = new Date(item.date).toLocaleDateString();
 
-        const content = document.createElement('p');
-        content.textContent = item.content; 
+        const image = document.createElement('img');
+        image.src = item.image ? item.image.url : ''; 
+        image.alt = item.header;
+        
+        
+        article.appendChild(header);
+        article.appendChild(date);
+        article.appendChild(image);
 
-        if (item.image && item.image.url) {  
-            const image = document.createElement('img');
-            image.src = item.image.url;
-            image.alt = item.header;
-            article.appendChild(image);
-        }
-
-        article.appendChild(header);  
-        article.appendChild(date);  
-        article.appendChild(content); 
-        newsList.appendChild(article);  
+        newsContainer.appendChild(article);
     });
 }
 
