@@ -830,7 +830,7 @@ ul.nabor-kontakt > li a:hover
   
   .lightbox .close 
   {
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 20px;
     font-size: 30px;
