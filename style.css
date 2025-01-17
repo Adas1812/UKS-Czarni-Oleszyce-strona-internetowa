@@ -834,4 +834,5 @@ ul.nabor-kontakt > li a:hover
     font-size: 30px;
     color: white;
     cursor: pointer;
+    z-index: 1000;
   }
