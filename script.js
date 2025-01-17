@@ -56,3 +56,17 @@ const baszniaFolderPath = "/galeria/Czarni - Basznia Dolna/";
 createGallery("gallery3", baszniaFolderPath, baszniaImages);
 
 
+const lightbox = document.getElementById('lightbox');
+const lightboxContent = document.querySelector('.lightbox-content');
+const closeBtn = document.querySelector('.lightbox .close');
+
+document.querySelectorAll('.gallery-item').forEach(item => {
+  item.addEventListener('click', () => {
+    lightbox.style.display = 'flex';
+    lightboxContent.src = item.src;
+  });
+});
+
+closeBtn.addEventListener('click', () => {
+  lightbox.style.display = 'none';
+});
