@@ -809,7 +809,7 @@ ul.nabor-kontakt > li a:hover
 }
   .lightbox 
   {
-    display: none; /* Ukryte domyślnie */
+    display: none; 
     position: fixed;
     top: 0;
     left: 0;
@@ -828,7 +828,7 @@ ul.nabor-kontakt > li a:hover
   
   .lightbox .close 
   {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     font-size: 30px;
