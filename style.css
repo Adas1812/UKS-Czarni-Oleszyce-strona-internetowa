@@ -400,8 +400,8 @@ i.icon-search > p
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: renter;
-    padding: 10px;
+    flex-direction: row;
+    padding: 30px;
 }
 .gbkomputer-logo
 {
