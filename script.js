@@ -12,6 +12,7 @@ function createGallery(containerId, folderPath, imageNames) {
     imageNames.forEach((imageName) => {
         const img = document.createElement("img");  
         img.src = folderPath + imageName; 
+        img.classList.add("gallery-image");
         img.onload = () => {
             console.log(`Załadowano zdjęcie: ${imageName}`);
         };
@@ -56,11 +57,13 @@ const baszniaFolderPath = "/galeria/Czarni - Basznia Dolna/";
 createGallery("gallery3", baszniaFolderPath, baszniaImages);
 
 
+/*Powiększanie zdj */
+
 const lightbox = document.getElementById('lightbox');
 const lightboxContent = document.querySelector('.lightbox-content');
 const closeBtn = document.querySelector('.lightbox .close');
 
-document.querySelectorAll('.gallery-item').forEach(item => {
+document.querySelectorAll('.gallery-image').forEach(item => {
   item.addEventListener('click', () => {
     lightbox.style.display = 'flex';
     lightboxContent.src = item.src;
