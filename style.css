@@ -429,7 +429,8 @@ i.icon-search > p
 }
 .orlen-logo
 {
-    transition: 0.5s
+    transition: 0.5s;
+    max-width: 300px;
 }
 .gbkomputer-logo:hover
 {
