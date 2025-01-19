@@ -95,6 +95,7 @@ a
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 h2.text1-title
 {
