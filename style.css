@@ -404,6 +404,7 @@ i.icon-search > p
     flex-direction: row;
     padding-top: 40px;
     width: 100%;
+    gap: 20px;
 }
 .sponsors-bottom
 {
@@ -411,8 +412,8 @@ i.icon-search > p
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 30px;
-    width: 100%
+    width: 100%;
+    gap: 20px;
 }
 .gbkomputer-logo
 {
