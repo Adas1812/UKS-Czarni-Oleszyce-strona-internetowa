@@ -425,12 +425,12 @@ i.icon-search > p
 .partners-rectangle
 {
     width: 100%;
+    gap: 40px;
     display: flex;
     justify-content: center;
-    text-align: center;
-    flex-direction: row;
-    margin-top: 75px;
-    margin-bottom: 20px;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
 }
 .nadlesnictwo-logo
 {
