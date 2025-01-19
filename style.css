@@ -428,6 +428,7 @@ i.icon-search > p
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: row;
     margin-top: 75px;
     margin-bottom: 20px;
 }
