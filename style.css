@@ -405,7 +405,7 @@ i.icon-search > p
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 75px;
     margin-bottom: 20px;
 }
 .oleszyce-logo
@@ -430,6 +430,7 @@ i.icon-search > p
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-top: 40px;
 }
 .nadlesnictwo-logo
 {
@@ -450,6 +451,7 @@ i.icon-search > p
     justify-content: center;
     padding-top: 50px;
     gap: 30px;
+    margin-top: 40px;
 }
 .orlen-logo
 {
