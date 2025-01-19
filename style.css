@@ -433,7 +433,9 @@ i.icon-search > p
 }
 .nadlesnictwo-logo
 {
-    transition: 0.5s
+    transition: 0.5s;
+    height: 300px;
+    width: 700px;
 }
 .nadlestnictwo-logo:hover
 {
@@ -446,6 +448,8 @@ i.icon-search > p
     flex-direction: row;
     text-align: center;
     justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
 }
 .orlen-logo
 {
@@ -459,8 +463,8 @@ i.icon-search > p
 }
 .gbkomputer-logo
 {
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 250px;
+    max-width: 250px;
     transition: 0.5s
 }
 .gbkomputer-logo:hover
