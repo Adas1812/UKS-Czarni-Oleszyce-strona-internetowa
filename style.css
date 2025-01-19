@@ -388,67 +388,82 @@ i.icon-search > p
 .sponsors-title
 {
     text-align: center;
-    border-top: 2px solid;
-    border-color: #000;
     padding: 40px;
+    text-transform: uppercase;
 }
 .sponsors
 {
     padding-bottom: 100px;
 }
-.sponsors-top
+.sponsorzy
 {
+    width: 100%
+}
+.sponsors-rectangle
+{
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding-top: 40px;
-    width: 100%;
-    gap: 20px;
-}
-.sponsors-bottom
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    gap: 20px;
-}
-.gbkomputer-logo
-{
-    max-height: 200px;
-    max-width: 200px;
-    padding: 40px;
-    transition: 0.5s
-}
-.nadlesnictwo-logo
-{
-    transition: 0.5s
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .oleszyce-logo
 {
     transition: 0.5s
 }
-.orlen-logo
-{
-    transition: 0.5s;
-    max-height: 200px;
-    max-width: 400px;
-}
-.gbkomputer-logo:hover
-{
-    transform: scale(0.98)
-}
-.nadlesnictwo-logo:hover
-{
-    transform: scale(0.98)
-}
 .oleszyce-logo:hover
 {
     transform: scale(0.98)
 }
+.partnerzy
+{
+    width: 100%
+}
+.partners-rectangle
+{
+    width: 100%;
+}
+.partners-top
+{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.nadlesnictwo-logo
+{
+    transition: 0.5s
+}
+.nadlestnictwo-logo:hover
+{
+    transform: scale(0.98)
+}
+.partners-bottom
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.orlen-logo
+{
+    transition: 0.5s;
+    max-width: 300px;
+    max-height: 300px;
+}
 .orlen-logo:hover
+{
+    transform: scale(0.98)
+}
+.gbkomputer-logo
+{
+    max-height: 300px;
+    max-width: 300px;
+    transition: 0.5s
+}
+.gbkomputer-logo:hover
 {
     transform: scale(0.98)
 }
