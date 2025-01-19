@@ -403,6 +403,7 @@ i.icon-search > p
     align-items: center;
     flex-direction: row;
     padding-top: 40px;
+    width: 100%
 }
 .sponsors-bottom
 {
@@ -411,11 +412,11 @@ i.icon-search > p
     align-items: center;
     flex-direction: row;
     padding: 30px;
+    max-height: 200px;
+    width: 100%
 }
 .gbkomputer-logo
 {
-    max-width: 200px;
-    max-height: 200px;
     padding: 40px;
     transition: 0.5s
 }
@@ -430,7 +431,6 @@ i.icon-search > p
 .orlen-logo
 {
     transition: 0.5s;
-    max-width: 300px;
 }
 .gbkomputer-logo:hover
 {
