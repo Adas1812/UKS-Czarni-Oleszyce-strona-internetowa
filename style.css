@@ -403,7 +403,8 @@ i.icon-search > p
     align-items: center;
     flex-direction: row;
     padding-top: 40px;
-    width: 100%
+    width: 100%;
+    max-height: 200px;
 }
 .sponsors-bottom
 {
