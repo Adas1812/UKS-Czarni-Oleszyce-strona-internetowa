@@ -57,6 +57,7 @@ body
     float: left;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .section-right
 {
@@ -94,7 +95,6 @@ a
 {
     display: flex;
     flex-direction: column;
-    line-height: 1.4
 }
 h2.text1-title
 {
