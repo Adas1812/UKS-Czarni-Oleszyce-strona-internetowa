@@ -425,7 +425,6 @@ i.icon-search > p
 .partners-rectangle
 {
     width: 100%;
-    gap: 40px;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -435,6 +434,8 @@ i.icon-search > p
 .nadlesnictwo-logo
 {
     transition: 0.5s;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 .nadlestnictwo-logo:hover
 {
