@@ -405,6 +405,8 @@ i.icon-search > p
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .oleszyce-logo
 {
