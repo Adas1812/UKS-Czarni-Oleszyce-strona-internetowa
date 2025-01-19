@@ -429,7 +429,7 @@ i.icon-search > p
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 50px;
+    gap: 100px;
 }
 .nadlesnictwo-logo
 {
@@ -451,8 +451,8 @@ i.icon-search > p
 }
 .gbkomputer-logo
 {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 175px;
+    max-width: 175px;
     transition: 0.5s;
 }
 .gbkomputer-logo:hover
